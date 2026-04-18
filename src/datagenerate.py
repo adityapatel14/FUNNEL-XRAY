@@ -3,145 +3,145 @@ import numpy as np
 import random
 from datetime import datetime, timedelta
 
-# -------------------------
-# CONFIG
-# -------------------------
-NUM_USERS = 1500
-MAX_SESSIONS_PER_USER = 6
-START_DATE = datetime(2024, 1, 1)
+np.random.seed(42)
 
-NAMES = ["Aditya", "Rahul", "Priya", "Sneha", "Amit", "Neha", "Karan", "Isha"]
-GENDERS = ["Male", "Female", "M", "F", "male", "female", None, "Unknown"]
-COUNTRIES = ["India", "india", "USA", "U.S.A", "UK", "Germany", None]
-DEVICES = ["mobile", "web", "Mobile", "WEB", None]
-TRAFFIC_SOURCES = ["organic", "ads", "referral", None]
+# -----------------------------
+# USERS TABLE (with messiness)
+# -----------------------------
+num_users = 800
 
-PRODUCTS = [
-    {"product_id": "P1", "price": 500},
-    {"product_id": "P2", "price": 1200},
-    {"product_id": "P3", "price": 300},
-]
+first_names = ["Amit","Rahul","Priya","Sneha","Arjun","Neha","Karan","Isha"]
+last_names = ["Sharma","Patel","Mehta","Rao","Verma","Singh","Kapoor","Nair"]
 
-EVENT_FLOW = ["signup", "view_product", "add_to_cart", "purchase"]
-
-data = []
-users = []
-
-# -------------------------
-# USER DATA (DIRTY)
-# -------------------------
-for user_id in range(1, NUM_USERS + 1):
+users = pd.DataFrame({
+    "user_id": [f"U{i}" for i in range(1, num_users+1)],
     
-    name = random.choice(NAMES)
+    # ✅ ADD: name
+    "name": [
+        random.choice(first_names) + " " + random.choice(last_names)
+        for _ in range(num_users)
+    ],
     
-    # Introduce messy names
-    if random.random() < 0.3:
-        name = " " + name.lower() + " "
+    # ✅ ADD: email
+    "email": [f"user{i}@gmail.com" for i in range(1, num_users+1)],
     
-    gender = random.choice(GENDERS)
-    country = random.choice(COUNTRIES)
+    "signup_date": [
+        datetime(2023,1,1) + timedelta(days=random.randint(0,365))
+        for _ in range(num_users)
+    ],
     
-    signup_date = START_DATE + timedelta(days=random.randint(0, 60))
+    # ❌ messy country
+    "country": np.random.choice(
+        ["India", "india", "US", "UK", "Germany", None],
+        num_users
+    ),
     
-    # Missing signup_date
-    if random.random() < 0.05:
-        signup_date = None
-    
-    users.append({
-        "user_id": user_id if random.random() > 0.02 else user_id - 1,  # duplicate IDs
-        "name": name,
-        "gender": gender,
-        "country": country,
-        "signup_date": signup_date
-    })
+    # ❌ messy device
+    "device": np.random.choice(
+        ["iOS", "Android", "Web", "web", None],
+        num_users
+    )
+})
 
-users_df = pd.DataFrame(users)
+# ❌ introduce duplicates
+users = pd.concat([users, users.sample(20)])
 
-# -------------------------
-# EVENT DATA (DIRTY)
-# -------------------------
-def generate_session(user):
-    session_id = f"sess_{random.randint(100000,999999)}"
-    
-    base_date = user["signup_date"] if user["signup_date"] else START_DATE
-    session_start = base_date + timedelta(days=random.randint(0, 30))
-    
-    current_time = session_start
-    
-    for event in EVENT_FLOW:
-        
-        product = random.choice(PRODUCTS)
-        quantity = random.randint(1, 3)
-        
-        price = product["price"]
-        
-        # Inject bad price
-        if random.random() < 0.05:
-            price = -price
-        
-        # Missing product
-        product_id = product["product_id"] if random.random() > 0.1 else None
-        
-        revenue = price * quantity if event == "purchase" else 0
-        
-        row = {
-            "user_id": user["user_id"],
-            "session_id": session_id,
-            "event": event,
-            "timestamp": current_time,
-            "device": random.choice(DEVICES),
-            "traffic_source": random.choice(TRAFFIC_SOURCES),
-            "country": user["country"],
-            "product_id": product_id,
-            "price": price if random.random() > 0.05 else None,
-            "quantity": quantity,
-            "revenue": revenue
-        }
-        
-        data.append(row)
-        
-        # Duplicate rows
-        if random.random() < 0.03:
-            data.append(row)
-        
-        # Future timestamp issue
-        if random.random() < 0.02:
-            row["timestamp"] = datetime(2035, 1, 1)
-        
-        # Drop-off
-        if random.random() < 0.3:
-            data.append({
-                "user_id": user["user_id"],
-                "session_id": session_id,
-                "event": "drop_off",
-                "timestamp": current_time + timedelta(minutes=5),
-                "device": random.choice(DEVICES),
-                "traffic_source": random.choice(TRAFFIC_SOURCES),
-                "country": user["country"],
-                "product_id": None,
-                "price": None,
-                "quantity": None,
-                "revenue": 0
-            })
-            break
-        
-        current_time += timedelta(minutes=random.randint(2, 15))
+# -----------------------------
+# PRODUCTS TABLE (slightly messy)
+# -----------------------------
+products = pd.DataFrame({
+    "product_id": [f"P{i}" for i in range(1, 11)],
+    "product_name": [
+        "Free Plan","Basic Plan","Pro Plan","Enterprise Plan",
+        "Analytics Dashboard","Email Automation","CRM Tool",
+        "AI Insights","Mobile App","API Access"
+    ],
+    "category": [
+        "Subscription","subscription","Subscription","Subscription",
+        "Feature","Feature","feature","Feature",
+        "Platform","Platform"
+    ],
+    "price": [
+        0,10,25,60,15,12,20,30,0,18
+    ]
+})
 
+# -----------------------------
+# EVENTS TABLE (main messy data)
+# -----------------------------
+num_events = 10000
 
-# Generate events
-for _, user in users_df.iterrows():
-    sessions = random.randint(1, MAX_SESSIONS_PER_USER)
-    for _ in range(sessions):
-        generate_session(user)
+event_types = ["view","click","add_to_cart","purchase","login"]
 
-events_df = pd.DataFrame(data)
+events = pd.DataFrame({
+    "event_id": [f"E{i}" for i in range(1, num_events+1)],
+    "user_id": np.random.choice(users["user_id"], num_events),
+    "event_type": np.random.choice(event_types, num_events),
+    "product_id": np.random.choice(products["product_id"].tolist() + ["P999"], num_events),  # invalid ID
+    "event_time": [datetime(2023,1,1) + timedelta(days=random.randint(0,365)) for _ in range(num_events)]
+})
 
-# Shuffle
-events_df = events_df.sample(frac=1).reset_index(drop=True)
+# introduce missing values
+events.loc[events.sample(200).index, "product_id"] = None
 
-# Save
-users_df.to_csv("users_dirty.csv", index=False)
-events_df.to_csv("events_dirty.csv", index=False)
+# introduce duplicates
+events = pd.concat([events, events.sample(100)])
 
-print("Users:", users_df.shape)
-print("Events:", events_df.shape)
+# -----------------------------
+# TRANSACTIONS TABLE
+# -----------------------------
+transactions = events[events["event_type"] == "purchase"].copy()
+
+transactions["transaction_id"] = [f"T{i}" for i in range(1, len(transactions)+1)]
+
+# merge product details
+transactions = transactions.merge(products, on="product_id", how="left")
+
+# amount from price
+transactions["amount"] = transactions["price"]
+
+# ✅ ADD: payment method (realistic)
+transactions["payment_method"] = np.random.choice(
+    ["UPI","Credit Card","Debit Card","Net Banking", None],
+    len(transactions)
+)
+
+# ✅ ADD: transaction status
+transactions["status"] = np.random.choice(
+    ["success","failed","pending"],
+    len(transactions),
+    p=[0.85, 0.10, 0.05]
+)
+
+# ❌ introduce wrong values
+transactions.loc[transactions.sample(50).index, "amount"] = -100  # invalid revenue
+
+# ❌ missing payment method
+transactions.loc[transactions.sample(30).index, "payment_method"] = None
+
+# ❌ inconsistent status
+transactions.loc[transactions.sample(20).index, "status"] = "Success"  # case issue
+
+# final columns
+transactions = transactions[[
+    "transaction_id",
+    "user_id",
+    "product_id",
+    "amount",
+    "payment_method",
+    "status",
+    "event_time"
+]]
+
+# -----------------------------
+# SAVE FILES
+# -----------------------------
+# -----------------------------
+# SAVE FILES (MESSY DATASET)
+# -----------------------------
+users.to_csv("messy_users.csv", index=False)
+products.to_csv("messy_products.csv", index=False)
+events.to_csv("messy_events.csv", index=False)
+transactions.to_csv("messy_transactions.csv", index=False)
+
+print("✅ Messy Dataset Generated Successfully!")

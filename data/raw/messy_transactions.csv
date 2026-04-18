@@ -1,0 +1,2022 @@
+transaction_id,user_id,product_id,amount,payment_method,status,event_time
+T1,U745,P2,10.0,Debit Card,success,2023-11-01
+T2,U422,P3,25.0,Net Banking,success,2023-08-08
+T3,U554,,,UPI,success,2023-07-18
+T4,U397,P2,10.0,Credit Card,pending,2023-03-15
+T5,U625,P4,60.0,Debit Card,success,2023-03-25
+T6,U105,P999,,Net Banking,success,2023-03-18
+T7,U560,P4,60.0,,success,2023-08-11
+T8,U726,P10,18.0,Net Banking,success,2023-04-08
+T9,U449,P10,18.0,UPI,success,2023-07-20
+T10,U8,,,Net Banking,failed,2023-12-14
+T11,U505,P10,18.0,Debit Card,success,2023-06-07
+T12,U621,P3,25.0,,success,2023-02-08
+T13,U408,P10,18.0,,success,2023-05-01
+T14,U277,P5,15.0,UPI,success,2023-04-27
+T15,U228,P8,30.0,Debit Card,failed,2023-08-19
+T16,U436,P9,0.0,UPI,success,2023-11-01
+T17,U499,P5,15.0,UPI,success,2023-05-16
+T18,U491,P4,60.0,UPI,success,2023-09-18
+T19,U442,P2,10.0,Net Banking,success,2023-07-02
+T20,U520,P999,,Credit Card,success,2023-08-21
+T21,U648,P9,0.0,Net Banking,success,2023-08-19
+T22,U463,P3,25.0,Debit Card,failed,2023-02-20
+T23,U378,P8,30.0,UPI,success,2023-05-12
+T24,U676,P6,12.0,UPI,success,2023-05-23
+T25,U374,P5,15.0,Credit Card,success,2023-01-19
+T26,U351,P1,0.0,,success,2023-09-14
+T27,U226,P6,12.0,UPI,success,2023-09-20
+T28,U631,P5,15.0,Net Banking,success,2023-07-16
+T29,U780,P2,10.0,UPI,success,2023-02-06
+T30,U397,P5,15.0,Debit Card,Success,2023-12-16
+T31,U345,P2,10.0,Credit Card,success,2023-03-28
+T32,U534,P1,0.0,,success,2023-08-03
+T33,U770,P9,0.0,Debit Card,success,2023-07-08
+T34,U683,P6,12.0,Net Banking,failed,2023-09-26
+T35,U703,P10,18.0,Debit Card,success,2023-12-26
+T36,U19,P6,12.0,UPI,success,2023-04-11
+T37,U473,P1,0.0,Credit Card,success,2023-03-01
+T38,U302,P999,,UPI,success,2023-07-24
+T39,U231,P4,60.0,Credit Card,success,2023-02-27
+T40,U66,P9,0.0,Net Banking,success,2023-08-20
+T41,U500,P10,18.0,Debit Card,success,2023-03-30
+T42,U70,P3,25.0,Credit Card,success,2023-05-23
+T43,U20,P9,0.0,Debit Card,failed,2023-11-18
+T44,U119,P1,0.0,Credit Card,success,2023-04-10
+T45,U583,P999,,UPI,success,2023-05-14
+T46,U516,P4,60.0,Credit Card,success,2023-02-12
+T47,U221,P4,60.0,Credit Card,success,2023-07-06
+T48,U728,P2,10.0,,failed,2023-09-22
+T49,U741,P7,20.0,Net Banking,success,2023-06-11
+T50,U670,P2,10.0,UPI,success,2023-07-12
+T51,U594,P999,,UPI,success,2023-08-23
+T52,U60,P1,0.0,Debit Card,success,2023-04-13
+T53,U57,P4,60.0,Credit Card,failed,2023-03-27
+T54,U406,P6,12.0,Credit Card,success,2023-06-06
+T55,U704,P999,,Credit Card,failed,2023-10-13
+T56,U763,P3,25.0,UPI,failed,2023-05-29
+T57,U401,P7,20.0,,success,2023-08-11
+T58,U660,P6,12.0,Debit Card,success,2023-08-31
+T59,U47,P7,20.0,Credit Card,success,2023-09-22
+T60,U399,P1,0.0,,success,2023-02-02
+T61,U124,P2,10.0,Net Banking,success,2023-12-05
+T62,U75,P5,15.0,UPI,success,2023-08-15
+T63,U625,P3,25.0,Net Banking,failed,2023-09-04
+T64,U630,P1,0.0,UPI,success,2023-04-18
+T65,U582,P8,30.0,Debit Card,success,2023-03-14
+T66,U295,P999,,Net Banking,success,2023-06-27
+T67,U792,P999,,Debit Card,success,2023-06-26
+T68,U188,P5,15.0,Debit Card,success,2023-08-25
+T69,U543,P1,0.0,Debit Card,success,2023-07-09
+T70,U414,P7,20.0,Net Banking,success,2023-09-01
+T71,U182,P3,25.0,Net Banking,success,2023-07-05
+T72,U477,P6,12.0,Net Banking,success,2023-10-05
+T73,U696,P10,18.0,Credit Card,success,2023-03-07
+T74,U250,P999,,Debit Card,success,2023-08-12
+T75,U690,P6,12.0,Credit Card,success,2023-11-01
+T76,U655,P2,10.0,UPI,success,2023-11-30
+T77,U666,P9,0.0,,success,2023-04-17
+T78,U142,,,,failed,2023-10-22
+T79,U165,P999,,UPI,success,2023-10-04
+T80,U131,P2,10.0,Debit Card,success,2023-06-15
+T81,U289,P10,18.0,Debit Card,success,2023-09-03
+T82,U664,P5,15.0,Credit Card,success,2023-05-29
+T83,U573,P8,30.0,Net Banking,success,2023-04-26
+T84,U573,P6,12.0,Net Banking,pending,2023-04-22
+T85,U43,P999,,UPI,success,2023-11-07
+T86,U529,P4,60.0,UPI,success,2023-12-14
+T87,U610,P1,0.0,UPI,success,2023-09-21
+T88,U435,P8,30.0,,failed,2023-05-23
+T89,U588,P8,30.0,,success,2023-07-06
+T90,U571,P3,25.0,Debit Card,success,2023-11-22
+T91,U611,P8,30.0,Debit Card,success,2023-12-26
+T92,U561,P8,30.0,Debit Card,success,2023-11-26
+T93,U391,P10,18.0,Net Banking,success,2023-03-17
+T94,U277,P3,25.0,Debit Card,success,2023-04-15
+T95,U214,P6,12.0,Credit Card,success,2023-08-12
+T96,U655,P3,25.0,UPI,success,2023-11-03
+T97,U79,P10,18.0,Net Banking,success,2023-03-30
+T98,U447,P4,60.0,,success,2023-11-29
+T99,U254,P999,,UPI,success,2023-11-09
+T100,U97,P5,15.0,Debit Card,success,2023-02-05
+T101,U436,P8,30.0,,failed,2023-09-25
+T102,U178,P3,25.0,,success,2023-02-01
+T103,U554,P6,12.0,,success,2023-08-31
+T104,U454,,,UPI,success,2023-01-22
+T105,U268,P3,25.0,Net Banking,success,2023-12-03
+T106,U520,P5,15.0,UPI,success,2023-02-08
+T107,U688,P4,60.0,Credit Card,success,2023-06-01
+T108,U260,P6,12.0,Debit Card,success,2023-08-16
+T109,U649,P4,60.0,Net Banking,success,2023-03-22
+T110,U524,P5,15.0,Net Banking,success,2023-11-07
+T111,U96,P9,0.0,Debit Card,success,2023-04-05
+T112,U269,P10,18.0,Credit Card,success,2023-08-17
+T113,U260,P7,20.0,,success,2023-08-24
+T114,U640,P10,-100.0,Debit Card,pending,2023-08-12
+T115,U645,P2,10.0,,success,2023-05-26
+T116,U646,P5,15.0,Debit Card,failed,2024-01-01
+T117,U364,P999,,UPI,success,2023-06-14
+T118,U226,P999,,Credit Card,success,2023-05-20
+T119,U760,P999,,Credit Card,pending,2023-05-19
+T120,U279,P2,10.0,Debit Card,success,2023-12-20
+T121,U662,P5,15.0,Credit Card,failed,2023-09-05
+T122,U620,P7,20.0,,failed,2023-09-22
+T123,U783,P999,,Credit Card,success,2023-03-20
+T124,U724,P7,20.0,Credit Card,success,2023-06-11
+T125,U483,P6,12.0,Credit Card,failed,2023-09-27
+T126,U248,,-100.0,Net Banking,success,2023-06-13
+T127,U156,,,Debit Card,success,2023-10-30
+T128,U454,P999,-100.0,UPI,success,2023-09-05
+T129,U191,P5,15.0,UPI,success,2023-01-10
+T130,U516,P4,60.0,Net Banking,success,2023-12-04
+T131,U191,P4,60.0,Net Banking,success,2023-05-22
+T132,U629,P9,0.0,UPI,success,2023-03-23
+T133,U551,P7,20.0,,success,2023-10-13
+T134,U115,P10,18.0,UPI,success,2023-11-22
+T135,U646,P9,0.0,UPI,success,2023-03-07
+T136,U550,P8,30.0,Debit Card,success,2023-03-31
+T137,U501,P9,0.0,UPI,success,2023-07-13
+T138,U702,P4,60.0,UPI,success,2023-01-26
+T139,U281,P999,,Credit Card,success,2023-06-26
+T140,U426,P6,12.0,Net Banking,success,2023-05-06
+T141,U713,P9,0.0,UPI,success,2023-12-29
+T142,U676,P1,0.0,UPI,success,2023-04-23
+T143,U376,P9,0.0,,success,2023-07-01
+T144,U41,P9,0.0,UPI,success,2023-10-20
+T145,U598,P999,,Debit Card,success,2023-02-26
+T146,U127,P2,10.0,,success,2023-11-15
+T147,U62,P9,0.0,UPI,success,2023-01-12
+T148,U432,P4,60.0,Debit Card,failed,2023-05-07
+T149,U779,P3,25.0,Net Banking,pending,2023-07-14
+T150,U65,P1,0.0,UPI,success,2023-11-29
+T151,U588,P2,10.0,Net Banking,success,2023-05-13
+T152,U559,P7,20.0,UPI,success,2023-10-08
+T153,U26,P999,,,success,2023-10-11
+T154,U406,P2,10.0,,success,2023-12-23
+T155,U232,P4,60.0,,failed,2023-06-29
+T156,U505,P999,,Credit Card,success,2023-11-03
+T157,U669,P1,0.0,Debit Card,success,2023-02-12
+T158,U492,P8,30.0,UPI,pending,2023-02-03
+T159,U87,P9,0.0,Net Banking,pending,2023-07-18
+T160,U665,P1,0.0,Net Banking,failed,2023-04-06
+T161,U730,P6,12.0,UPI,success,2023-07-27
+T162,U648,P2,10.0,Credit Card,success,2023-02-04
+T163,U362,P2,10.0,Credit Card,success,2023-01-09
+T164,U142,P4,60.0,Credit Card,success,2023-06-27
+T165,U432,P3,25.0,UPI,success,2023-08-12
+T166,U701,P4,60.0,,failed,2023-11-28
+T167,U190,P10,18.0,,success,2023-06-02
+T168,U404,P6,12.0,UPI,success,2023-08-30
+T169,U704,P4,60.0,,success,2023-03-14
+T170,U318,P999,,Credit Card,success,2023-02-18
+T171,U618,P6,12.0,,success,2023-05-25
+T172,U233,P5,15.0,UPI,success,2023-06-20
+T173,U553,P2,10.0,,failed,2023-07-01
+T174,U551,P9,0.0,,success,2023-11-14
+T175,U397,P999,,,success,2023-11-15
+T176,U557,P999,,,success,2023-03-18
+T177,U168,P999,,UPI,success,2023-11-03
+T178,U332,P7,20.0,Debit Card,success,2023-02-01
+T179,U268,P2,-100.0,,success,2023-05-20
+T180,U240,P9,0.0,Debit Card,success,2023-04-02
+T181,U301,P6,12.0,UPI,success,2023-05-30
+T182,U602,P8,30.0,Net Banking,success,2023-12-11
+T183,U520,P6,12.0,Debit Card,success,2023-12-28
+T184,U174,P9,0.0,UPI,success,2023-06-29
+T185,U689,P5,15.0,Net Banking,failed,2023-02-10
+T186,U658,P3,25.0,,success,2023-12-27
+T187,U485,P9,0.0,UPI,success,2023-02-28
+T188,U113,,,Credit Card,success,2023-03-05
+T189,U332,P8,30.0,Net Banking,success,2023-05-07
+T190,U378,P4,60.0,Credit Card,success,2023-09-15
+T191,U202,P7,20.0,,success,2023-04-18
+T192,U266,P2,10.0,,success,2023-07-19
+T193,U713,P3,25.0,Debit Card,success,2023-10-21
+T194,U540,P4,60.0,,pending,2023-08-28
+T195,U84,P10,18.0,Debit Card,success,2023-10-03
+T196,U268,P1,0.0,Net Banking,success,2023-11-03
+T197,U357,P1,0.0,Credit Card,success,2024-01-01
+T198,U574,P3,25.0,Net Banking,success,2023-03-22
+T199,U49,P8,30.0,Credit Card,success,2023-03-01
+T200,U375,P1,0.0,UPI,success,2023-10-17
+T201,U73,P6,12.0,Net Banking,success,2023-09-12
+T202,U30,P8,30.0,UPI,success,2023-01-16
+T203,U172,P4,60.0,Credit Card,success,2023-04-17
+T204,U41,P10,18.0,Debit Card,pending,2023-08-16
+T205,U23,P999,,Net Banking,success,2023-12-16
+T206,U672,P9,0.0,Net Banking,failed,2023-02-11
+T207,U380,P5,15.0,Debit Card,success,2023-09-28
+T208,U440,P3,25.0,Debit Card,failed,2023-05-06
+T209,U668,P10,18.0,,success,2023-09-12
+T210,U196,P5,-100.0,,success,2023-07-24
+T211,U419,P10,18.0,Credit Card,success,2023-12-17
+T212,U325,P1,0.0,Net Banking,success,2023-07-10
+T213,U628,P10,18.0,Debit Card,success,2023-07-13
+T214,U31,P6,12.0,Debit Card,success,2023-04-11
+T215,U363,,,UPI,success,2023-07-06
+T216,U563,P999,,,success,2023-11-15
+T217,U542,P9,-100.0,UPI,success,2023-08-13
+T218,U549,P7,20.0,Debit Card,success,2023-08-17
+T219,U708,P5,15.0,Net Banking,failed,2023-02-10
+T220,U489,P1,0.0,Net Banking,success,2023-10-22
+T221,U674,P6,12.0,UPI,success,2023-07-03
+T222,U379,P8,30.0,,success,2023-06-28
+T223,U343,P999,,Credit Card,success,2023-04-05
+T224,U416,P9,0.0,Net Banking,success,2023-09-06
+T225,U109,P1,0.0,Credit Card,pending,2023-01-04
+T226,U383,P7,20.0,,success,2023-09-19
+T227,U499,P10,18.0,UPI,success,2023-07-09
+T228,U385,P999,,,success,2023-02-24
+T229,U111,P6,12.0,Debit Card,success,2023-11-09
+T230,U761,P2,10.0,,pending,2023-11-07
+T231,U165,P3,25.0,UPI,success,2023-05-10
+T232,U117,P4,60.0,UPI,failed,2023-12-24
+T233,U685,,,,success,2023-10-26
+T234,U140,P8,30.0,UPI,success,2023-09-20
+T235,U758,P999,,Debit Card,success,2023-11-27
+T236,U517,P999,,Credit Card,success,2023-10-26
+T237,U184,P5,15.0,,success,2023-12-11
+T238,U20,P7,20.0,UPI,failed,2023-03-19
+T239,U304,P1,0.0,Credit Card,success,2023-03-05
+T240,U748,,,Debit Card,success,2023-11-10
+T241,U102,P4,60.0,,success,2023-07-08
+T242,U715,,,UPI,success,2023-03-07
+T243,U163,P3,25.0,Credit Card,success,2023-01-16
+T244,U116,P6,12.0,Debit Card,success,2023-06-21
+T245,U147,P999,,Net Banking,success,2023-09-19
+T246,U575,P999,,UPI,success,2023-05-06
+T247,U83,P9,0.0,Debit Card,success,2023-12-22
+T248,U443,P3,25.0,Credit Card,success,2023-12-12
+T249,U480,P5,15.0,,pending,2023-05-27
+T250,U22,P2,10.0,Credit Card,success,2023-05-12
+T251,U726,P6,12.0,,success,2023-08-07
+T252,U681,P7,20.0,Debit Card,success,2023-08-19
+T253,U664,P5,15.0,Debit Card,success,2023-01-30
+T254,U547,P1,0.0,Credit Card,pending,2023-02-09
+T255,U163,P7,20.0,Credit Card,success,2023-04-15
+T256,U794,P1,0.0,,success,2023-11-18
+T257,U292,P9,-100.0,UPI,failed,2023-11-01
+T258,U265,P6,12.0,Credit Card,pending,2023-05-11
+T259,U491,P6,12.0,UPI,failed,2023-11-02
+T260,U384,P1,0.0,UPI,failed,2023-04-07
+T261,U584,P8,30.0,UPI,success,2023-04-02
+T262,U685,P4,60.0,Debit Card,failed,2023-05-10
+T263,U358,P7,20.0,Debit Card,pending,2023-07-17
+T264,U746,P2,10.0,UPI,success,2023-08-03
+T265,U450,P9,0.0,UPI,success,2023-03-22
+T266,U508,P999,,Debit Card,success,2023-08-04
+T267,U290,P5,15.0,,success,2023-12-11
+T268,U611,P8,30.0,Net Banking,success,2023-12-01
+T269,U670,P9,0.0,Credit Card,failed,2023-12-23
+T270,U337,P999,,UPI,success,2023-06-12
+T271,U178,P5,15.0,Debit Card,success,2023-08-20
+T272,U408,P5,15.0,UPI,success,2023-02-26
+T273,U59,P9,0.0,UPI,success,2023-05-14
+T274,U471,P4,60.0,UPI,success,2023-08-30
+T275,U12,P9,0.0,UPI,success,2023-08-05
+T276,U290,P5,15.0,,success,2023-01-29
+T277,U154,P9,0.0,Credit Card,failed,2023-12-04
+T278,U726,P2,10.0,Credit Card,pending,2023-03-31
+T279,U88,P999,,Debit Card,success,2023-04-26
+T280,U390,P3,25.0,,success,2023-07-26
+T281,U428,P999,,,success,2023-02-16
+T282,U708,P4,60.0,Credit Card,success,2023-02-25
+T283,U83,P10,18.0,Debit Card,success,2023-11-28
+T284,U177,P3,25.0,,success,2023-11-20
+T285,U624,P8,30.0,Debit Card,success,2023-07-07
+T286,U729,P2,10.0,Credit Card,success,2023-07-17
+T287,U533,P9,0.0,UPI,success,2023-12-02
+T288,U293,P5,15.0,,success,2023-03-02
+T289,U101,P999,,Debit Card,success,2023-08-17
+T290,U304,P3,25.0,UPI,success,2023-04-13
+T291,U768,P1,0.0,Credit Card,success,2023-05-29
+T292,U397,P3,25.0,Net Banking,success,2023-05-25
+T293,U173,P10,18.0,,success,2023-09-22
+T294,U162,P4,60.0,,success,2023-01-10
+T295,U481,,,Debit Card,success,2023-08-29
+T296,U565,P3,25.0,Credit Card,success,2023-01-03
+T297,U44,P2,10.0,Credit Card,success,2023-01-16
+T298,U240,P9,0.0,,success,2023-12-24
+T299,U586,P2,10.0,,failed,2023-06-03
+T300,U677,P6,12.0,Debit Card,success,2023-03-28
+T301,U102,P4,60.0,Debit Card,success,2023-09-29
+T302,U138,P3,25.0,Net Banking,failed,2023-10-16
+T303,U536,,,UPI,success,2023-08-23
+T304,U465,P2,10.0,Debit Card,pending,2023-11-03
+T305,U698,P2,10.0,,success,2023-12-22
+T306,U693,P3,25.0,,success,2023-12-31
+T307,U734,P5,15.0,Net Banking,failed,2023-04-04
+T308,U674,P1,0.0,Net Banking,success,2023-03-17
+T309,U33,P3,25.0,Net Banking,success,2023-12-14
+T310,U55,P7,20.0,Credit Card,success,2023-03-07
+T311,U12,P4,60.0,,success,2023-08-15
+T312,U720,P3,25.0,Credit Card,Success,2023-04-26
+T313,U484,P6,12.0,Credit Card,success,2023-05-27
+T314,U307,P3,25.0,Net Banking,success,2023-10-20
+T315,U331,P999,,Credit Card,success,2023-03-18
+T316,U45,P1,0.0,,success,2023-07-13
+T317,U214,P1,0.0,,pending,2023-08-27
+T318,U59,P3,25.0,Credit Card,pending,2023-09-08
+T319,U489,P7,20.0,,success,2023-07-21
+T320,U412,P2,10.0,UPI,success,2023-12-22
+T321,U800,P6,12.0,Credit Card,success,2023-11-13
+T322,U540,P6,12.0,Net Banking,failed,2023-09-06
+T323,U233,P6,-100.0,Net Banking,success,2023-11-09
+T324,U571,P999,,,success,2023-03-31
+T325,U441,P10,18.0,,success,2023-03-09
+T326,U25,P2,10.0,Net Banking,success,2023-05-09
+T327,U394,P1,0.0,UPI,success,2023-08-04
+T328,U301,P4,60.0,Net Banking,success,2023-09-26
+T329,U687,P999,,Credit Card,success,2023-07-24
+T330,U564,P8,30.0,Net Banking,success,2023-02-18
+T331,U216,P3,25.0,Debit Card,success,2023-04-16
+T332,U242,P9,0.0,UPI,success,2023-11-02
+T333,U5,P9,0.0,UPI,Success,2023-09-01
+T334,U566,P4,60.0,Net Banking,success,2023-10-12
+T335,U122,P8,30.0,Debit Card,success,2023-12-31
+T336,U428,P10,18.0,Credit Card,success,2023-02-08
+T337,U161,P10,18.0,Net Banking,success,2023-01-10
+T338,U582,P2,10.0,Credit Card,success,2023-10-31
+T339,U446,P10,18.0,Debit Card,success,2023-10-27
+T340,U601,P5,15.0,Net Banking,success,2023-04-19
+T341,U19,P8,30.0,Net Banking,success,2023-06-02
+T342,U125,,,Credit Card,success,2023-12-25
+T343,U354,P2,10.0,Net Banking,success,2023-09-20
+T344,U247,P8,30.0,Debit Card,success,2023-03-05
+T345,U362,P1,0.0,Net Banking,success,2023-08-01
+T346,U478,P10,18.0,,success,2023-10-21
+T347,U593,P5,15.0,Debit Card,success,2023-11-10
+T348,U44,P3,25.0,UPI,success,2023-02-18
+T349,U322,P5,15.0,Credit Card,success,2023-01-21
+T350,U155,P5,15.0,Debit Card,failed,2023-07-10
+T351,U740,P3,25.0,UPI,success,2023-11-23
+T352,U438,P1,0.0,UPI,success,2023-01-31
+T353,U667,P5,15.0,Debit Card,success,2023-06-25
+T354,U603,P7,20.0,UPI,success,2023-12-23
+T355,U274,P6,12.0,UPI,success,2023-07-28
+T356,U116,P10,18.0,,success,2023-10-18
+T357,U324,P1,0.0,Net Banking,success,2023-04-22
+T358,U315,P999,,,success,2023-11-02
+T359,U715,P2,10.0,Net Banking,success,2023-11-06
+T360,U105,P4,60.0,UPI,success,2023-08-18
+T361,U401,P5,15.0,,success,2023-03-10
+T362,U580,P3,25.0,,success,2023-11-20
+T363,U256,P8,30.0,Credit Card,success,2023-12-12
+T364,U661,P6,12.0,,success,2023-08-12
+T365,U588,P7,20.0,Net Banking,pending,2023-03-24
+T366,U405,P8,30.0,Credit Card,success,2023-12-25
+T367,U132,P999,,Debit Card,success,2023-10-19
+T368,U791,P10,18.0,Credit Card,success,2023-05-13
+T369,U399,P999,,Net Banking,failed,2023-01-15
+T370,U553,P5,15.0,UPI,success,2023-01-25
+T371,U494,P2,10.0,,success,2023-06-24
+T372,U189,P3,25.0,Credit Card,success,2023-11-13
+T373,U433,P999,-100.0,Net Banking,success,2023-02-20
+T374,U181,P4,60.0,,success,2023-02-10
+T375,U248,P6,12.0,,success,2023-01-01
+T376,U581,P3,25.0,UPI,success,2023-11-15
+T377,U650,P8,30.0,,success,2023-10-09
+T378,U515,P8,30.0,,success,2023-06-21
+T379,U751,P10,18.0,Net Banking,success,2023-10-28
+T380,U702,P10,18.0,Debit Card,success,2023-01-29
+T381,U411,P9,0.0,Credit Card,success,2023-11-20
+T382,U496,P8,30.0,Debit Card,success,2023-09-26
+T383,U47,P999,,UPI,success,2023-03-15
+T384,U740,P5,15.0,Credit Card,success,2023-08-10
+T385,U551,P6,12.0,Debit Card,success,2023-11-02
+T386,U753,P3,25.0,UPI,success,2023-05-31
+T387,U10,P2,10.0,,success,2023-08-29
+T388,U726,P1,0.0,,failed,2023-03-05
+T389,U505,P9,0.0,,failed,2023-10-15
+T390,U560,P2,10.0,,success,2023-06-04
+T391,U635,P9,0.0,Credit Card,Success,2023-05-29
+T392,U783,P2,10.0,,success,2023-11-21
+T393,U378,P10,18.0,Credit Card,success,2023-04-18
+T394,U509,P9,0.0,Credit Card,success,2023-05-24
+T395,U593,P10,18.0,Debit Card,success,2023-11-02
+T396,U73,P8,30.0,,failed,2023-11-12
+T397,U337,P5,15.0,Net Banking,failed,2023-12-14
+T398,U369,P999,,,failed,2023-09-12
+T399,U419,P2,10.0,Net Banking,success,2023-03-25
+T400,U193,P1,0.0,,pending,2023-09-21
+T401,U283,P9,0.0,Credit Card,success,2023-03-04
+T402,U716,P4,60.0,,failed,2023-05-14
+T403,U555,P5,15.0,,success,2023-02-21
+T404,U428,P7,20.0,,success,2023-10-11
+T405,U451,P5,15.0,,success,2023-04-19
+T406,U126,P8,30.0,Debit Card,success,2023-10-22
+T407,U559,P10,18.0,Debit Card,success,2023-05-05
+T408,U526,P2,10.0,Credit Card,failed,2023-02-03
+T409,U404,P7,20.0,Credit Card,success,2023-12-15
+T410,U392,P10,18.0,Net Banking,success,2023-09-27
+T411,U518,P4,60.0,Credit Card,success,2023-05-17
+T412,U412,P4,60.0,Debit Card,success,2023-03-22
+T413,U583,P10,-100.0,Credit Card,success,2023-12-07
+T414,U778,P9,0.0,Net Banking,success,2023-10-26
+T415,U345,P1,0.0,Net Banking,success,2023-01-12
+T416,U636,P999,,Debit Card,failed,2023-10-02
+T417,U586,P8,30.0,Credit Card,failed,2023-07-23
+T418,U166,,,Net Banking,success,2023-04-20
+T419,U309,P999,,Credit Card,pending,2023-07-27
+T420,U491,P9,0.0,Credit Card,success,2023-03-31
+T421,U481,P9,0.0,Debit Card,success,2023-05-01
+T422,U352,P5,-100.0,Debit Card,success,2023-08-17
+T423,U443,P3,25.0,Credit Card,success,2023-09-21
+T424,U662,P3,25.0,,success,2023-04-04
+T425,U560,P999,,,pending,2023-07-04
+T426,U610,P5,-100.0,,success,2023-11-16
+T427,U57,P9,0.0,UPI,success,2023-11-01
+T428,U83,P4,60.0,UPI,pending,2023-07-29
+T429,U650,P2,10.0,Debit Card,success,2023-10-17
+T430,U420,P10,18.0,Credit Card,success,2023-02-01
+T431,U46,P8,30.0,Net Banking,failed,2023-04-29
+T432,U795,P4,60.0,Credit Card,failed,2023-02-17
+T433,U54,P1,0.0,Credit Card,pending,2023-05-27
+T434,U690,P9,0.0,UPI,success,2023-11-22
+T435,U409,P1,0.0,Credit Card,success,2023-04-16
+T436,U644,P4,60.0,UPI,success,2023-06-08
+T437,U248,P2,10.0,Credit Card,success,2023-12-20
+T438,U43,P999,,Net Banking,success,2023-11-06
+T439,U377,P3,25.0,,failed,2023-05-01
+T440,U480,P1,0.0,,failed,2023-05-27
+T441,U69,P4,60.0,Debit Card,success,2023-04-03
+T442,U606,P9,0.0,Net Banking,success,2023-01-19
+T443,U503,P10,18.0,Credit Card,success,2023-04-30
+T444,U338,P7,20.0,Net Banking,success,2023-12-08
+T445,U275,P8,30.0,Credit Card,success,2023-04-02
+T446,U319,P5,15.0,Net Banking,success,2023-11-10
+T447,U686,P2,10.0,Net Banking,success,2023-04-28
+T448,U603,,,,success,2023-06-07
+T449,U776,P10,18.0,Net Banking,success,2023-03-04
+T450,U390,P999,,Debit Card,success,2023-10-13
+T451,U694,P10,-100.0,Credit Card,success,2023-12-02
+T452,U549,P2,10.0,UPI,success,2023-11-24
+T453,U568,P5,15.0,Net Banking,success,2023-05-17
+T454,U570,P8,30.0,UPI,success,2023-02-14
+T455,U188,P1,0.0,,success,2023-03-08
+T456,U420,P3,25.0,UPI,success,2023-08-02
+T457,U92,P8,30.0,Debit Card,success,2023-05-19
+T458,U512,P4,60.0,Debit Card,failed,2023-10-11
+T459,U772,P999,,,success,2023-12-30
+T460,U573,P7,-100.0,Debit Card,success,2023-10-15
+T461,U207,P8,30.0,Credit Card,success,2023-11-05
+T462,U614,P5,15.0,Debit Card,success,2023-07-07
+T463,U714,P6,12.0,Net Banking,success,2023-07-27
+T464,U621,P2,10.0,Debit Card,failed,2023-12-18
+T465,U69,P3,-100.0,Credit Card,success,2023-06-17
+T466,U312,P5,15.0,,failed,2023-02-02
+T467,U665,P3,25.0,Debit Card,success,2023-08-26
+T468,U277,P10,18.0,Credit Card,success,2023-06-02
+T469,U544,P3,25.0,Net Banking,success,2023-01-24
+T470,U622,P999,,UPI,failed,2023-06-16
+T471,U109,P6,12.0,UPI,success,2023-06-05
+T472,U87,,,,success,2023-02-10
+T473,U457,P9,0.0,,success,2023-09-07
+T474,U677,P5,15.0,UPI,success,2023-07-20
+T475,U616,P1,0.0,UPI,success,2023-06-05
+T476,U450,P10,18.0,,failed,2023-07-17
+T477,U620,P10,18.0,UPI,success,2023-06-16
+T478,U606,P1,0.0,Debit Card,success,2023-02-14
+T479,U638,P1,0.0,Credit Card,success,2023-03-07
+T480,U634,P1,0.0,,success,2023-12-31
+T481,U674,P2,10.0,Credit Card,success,2023-05-12
+T482,U247,P4,60.0,Net Banking,success,2023-03-10
+T483,U559,,,Net Banking,success,2023-12-10
+T484,U412,P999,,Debit Card,success,2023-07-26
+T485,U584,P10,18.0,Net Banking,success,2023-03-27
+T486,U354,P3,25.0,,pending,2023-03-30
+T487,U93,P4,60.0,Debit Card,pending,2023-07-28
+T488,U239,P9,0.0,Debit Card,success,2023-12-19
+T489,U245,P1,0.0,,success,2023-07-21
+T490,U71,P4,60.0,UPI,success,2023-08-30
+T491,U325,P8,30.0,Credit Card,success,2023-11-14
+T492,U305,P6,12.0,,success,2023-02-15
+T493,U7,P2,10.0,UPI,success,2023-05-18
+T494,U57,P10,-100.0,UPI,success,2023-06-22
+T495,U537,P5,15.0,Net Banking,pending,2023-10-26
+T496,U765,P10,18.0,Debit Card,success,2023-07-16
+T497,U387,P5,15.0,Debit Card,success,2023-10-26
+T498,U144,P6,12.0,Net Banking,failed,2023-02-26
+T499,U336,P5,15.0,Net Banking,failed,2023-10-08
+T500,U425,P8,30.0,Debit Card,success,2023-06-26
+T501,U57,P7,20.0,,success,2023-02-04
+T502,U194,P10,18.0,,success,2023-09-06
+T503,U736,P4,60.0,,success,2023-11-29
+T504,U648,P10,18.0,,success,2023-05-08
+T505,U116,P6,12.0,Net Banking,success,2023-02-16
+T506,U221,P5,15.0,Credit Card,pending,2023-01-03
+T507,U59,P9,0.0,Credit Card,success,2023-08-19
+T508,U574,P2,10.0,Debit Card,success,2023-08-14
+T509,U572,P999,,Credit Card,success,2023-06-05
+T510,U671,P1,0.0,,success,2023-02-12
+T511,U719,P10,18.0,Net Banking,success,2023-12-22
+T512,U480,P9,0.0,,success,2023-01-29
+T513,U485,P3,25.0,UPI,failed,2023-09-20
+T514,U541,P999,,Net Banking,failed,2023-05-09
+T515,U400,P1,0.0,UPI,success,2023-07-10
+T516,U789,P1,0.0,UPI,failed,2023-04-28
+T517,U490,P4,60.0,Debit Card,success,2023-11-29
+T518,U574,P4,60.0,UPI,success,2023-03-20
+T519,U682,P4,60.0,Credit Card,success,2023-02-26
+T520,U237,P7,20.0,Credit Card,success,2023-04-17
+T521,U300,P4,60.0,UPI,failed,2023-06-15
+T522,U207,P6,12.0,Debit Card,success,2023-11-08
+T523,U371,P999,,UPI,success,2023-06-19
+T524,U658,P3,25.0,Net Banking,success,2023-05-15
+T525,U239,P9,0.0,Net Banking,success,2023-12-06
+T526,U222,P9,0.0,Net Banking,success,2023-06-30
+T527,U685,P8,30.0,Net Banking,success,2023-02-15
+T528,U156,P8,30.0,UPI,success,2023-01-08
+T529,U378,P2,10.0,,failed,2023-03-16
+T530,U790,P7,20.0,,failed,2023-04-04
+T531,U791,P999,,Net Banking,success,2023-06-05
+T532,U204,P1,0.0,Debit Card,success,2023-02-23
+T533,U769,P3,25.0,Debit Card,failed,2023-09-24
+T534,U677,P999,,UPI,success,2023-08-03
+T535,U699,P7,20.0,,success,2023-02-06
+T536,U258,P8,30.0,UPI,success,2023-11-19
+T537,U182,P5,15.0,Credit Card,success,2023-07-01
+T538,U550,P1,0.0,Net Banking,success,2023-02-16
+T539,U688,,,Credit Card,failed,2023-07-12
+T540,U27,P10,18.0,Credit Card,success,2023-08-07
+T541,U652,P1,0.0,Debit Card,success,2023-03-14
+T542,U480,P9,0.0,,success,2023-07-11
+T543,U451,P2,10.0,Net Banking,success,2023-04-14
+T544,U365,P999,,UPI,success,2023-07-20
+T545,U400,P999,,Net Banking,success,2023-02-20
+T546,U253,P7,20.0,UPI,success,2023-07-24
+T547,U699,P10,18.0,UPI,success,2023-06-03
+T548,U499,P6,12.0,,success,2023-05-10
+T549,U304,P999,,Credit Card,pending,2023-12-21
+T550,U462,P9,0.0,UPI,success,2023-07-25
+T551,U356,P6,12.0,,success,2023-11-11
+T552,U235,P10,18.0,Credit Card,success,2023-09-30
+T553,U74,P10,18.0,Credit Card,success,2023-05-13
+T554,U665,P7,20.0,Net Banking,success,2023-12-04
+T555,U211,P8,30.0,Net Banking,success,2023-10-04
+T556,U315,P999,,Net Banking,success,2023-07-23
+T557,U661,P1,0.0,Debit Card,failed,2023-03-03
+T558,U758,P2,10.0,Credit Card,success,2023-06-01
+T559,U694,P4,60.0,Debit Card,success,2023-05-15
+T560,U277,P8,30.0,Net Banking,success,2023-07-28
+T561,U511,P5,15.0,,success,2023-01-22
+T562,U616,P9,0.0,Net Banking,Success,2023-04-23
+T563,U118,P5,15.0,UPI,failed,2023-01-01
+T564,U532,P5,15.0,,success,2023-05-12
+T565,U222,P8,30.0,,success,2023-09-26
+T566,U94,P3,25.0,Credit Card,Success,2023-01-18
+T567,U205,P4,60.0,Debit Card,success,2023-09-10
+T568,U150,P3,25.0,UPI,success,2023-02-23
+T569,U29,P1,0.0,,success,2023-04-23
+T570,U721,P2,10.0,Debit Card,success,2023-10-19
+T571,U439,P999,,Debit Card,success,2023-01-23
+T572,U511,P9,0.0,UPI,success,2023-12-22
+T573,U212,P6,12.0,UPI,success,2023-09-18
+T574,U631,P4,60.0,Net Banking,success,2023-02-02
+T575,U276,P3,25.0,Net Banking,success,2023-05-12
+T576,U743,P5,15.0,,success,2023-04-15
+T577,U64,P8,30.0,,failed,2023-11-02
+T578,U112,P8,30.0,,success,2023-06-01
+T579,U763,P9,0.0,Net Banking,success,2023-08-22
+T580,U358,P8,30.0,,success,2023-10-25
+T581,U84,P7,20.0,,success,2023-03-18
+T582,U296,P1,0.0,Net Banking,success,2023-03-22
+T583,U93,P6,12.0,Net Banking,success,2023-04-18
+T584,U39,P2,10.0,,success,2023-05-23
+T585,U637,P4,60.0,,success,2023-07-23
+T586,U36,P4,60.0,Debit Card,success,2023-04-16
+T587,U101,P3,25.0,Credit Card,success,2023-10-30
+T588,U471,P6,12.0,Net Banking,success,2023-07-23
+T589,U31,P4,60.0,Credit Card,success,2023-05-02
+T590,U375,P9,0.0,Net Banking,success,2023-07-15
+T591,U424,P999,,Debit Card,success,2023-05-14
+T592,U65,P1,0.0,Credit Card,success,2023-09-01
+T593,U106,P3,25.0,Debit Card,success,2023-12-15
+T594,U226,P10,18.0,UPI,success,2023-08-20
+T595,U530,P6,12.0,Credit Card,success,2023-02-15
+T596,U106,P9,0.0,Credit Card,success,2023-07-01
+T597,U271,P9,0.0,Credit Card,failed,2023-05-04
+T598,U393,P1,0.0,UPI,pending,2023-04-12
+T599,U82,P10,18.0,UPI,success,2023-09-21
+T600,U201,P8,30.0,,pending,2023-07-08
+T601,U38,P9,0.0,UPI,success,2023-09-25
+T602,U227,P6,12.0,Net Banking,success,2023-01-17
+T603,U345,P8,30.0,,success,2023-06-05
+T604,U224,P999,,Credit Card,success,2023-11-15
+T605,U488,P999,,Debit Card,success,2023-02-25
+T606,U390,P7,20.0,Debit Card,success,2023-09-28
+T607,U270,P5,15.0,Debit Card,success,2023-05-27
+T608,U793,P3,25.0,Debit Card,success,2023-01-22
+T609,U486,P2,10.0,Credit Card,success,2023-09-12
+T610,U738,P7,20.0,Debit Card,success,2023-07-29
+T611,U720,P999,,Credit Card,success,2023-03-18
+T612,U72,P1,0.0,Debit Card,success,2023-02-19
+T613,U185,P999,,Debit Card,success,2023-12-12
+T614,U699,P9,0.0,,success,2023-10-11
+T615,U345,P5,15.0,Net Banking,failed,2023-07-28
+T616,U725,P4,60.0,UPI,success,2023-11-11
+T617,U383,P2,10.0,UPI,success,2023-05-07
+T618,U406,P5,15.0,UPI,success,2023-03-29
+T619,U388,P6,12.0,Net Banking,success,2023-11-29
+T620,U525,P5,15.0,Credit Card,success,2023-09-20
+T621,U626,P3,25.0,UPI,success,2023-11-19
+T622,U500,P999,,UPI,success,2023-09-13
+T623,U273,P3,25.0,UPI,success,2023-12-12
+T624,U279,P10,18.0,Credit Card,pending,2023-04-30
+T625,U315,P5,15.0,Net Banking,success,2023-12-06
+T626,U111,P2,10.0,Net Banking,success,2023-02-28
+T627,U699,P6,12.0,Credit Card,success,2023-10-31
+T628,U722,P5,15.0,,success,2023-05-22
+T629,U171,P8,30.0,Debit Card,success,2023-01-19
+T630,U265,,,Credit Card,success,2023-05-28
+T631,U140,P4,60.0,Debit Card,failed,2023-06-07
+T632,U139,P2,10.0,Net Banking,success,2023-09-02
+T633,U733,P1,0.0,Debit Card,failed,2023-02-14
+T634,U424,P8,30.0,UPI,failed,2023-12-29
+T635,U712,P2,10.0,Debit Card,success,2023-09-24
+T636,U139,P1,0.0,Debit Card,failed,2023-09-26
+T637,U119,P3,25.0,Net Banking,success,2023-06-03
+T638,U293,P7,20.0,,success,2023-06-02
+T639,U580,P3,25.0,Debit Card,success,2023-06-26
+T640,U218,P3,25.0,Net Banking,success,2023-03-14
+T641,U308,P1,0.0,UPI,success,2023-11-05
+T642,U247,P9,0.0,Debit Card,success,2023-05-07
+T643,U494,P9,0.0,Debit Card,success,2023-02-26
+T644,U186,P8,30.0,UPI,success,2023-05-04
+T645,U719,P10,18.0,Credit Card,success,2023-10-01
+T646,U609,P10,18.0,,success,2023-03-11
+T647,U460,P999,,UPI,success,2023-12-18
+T648,U720,P7,20.0,,success,2023-12-18
+T649,U375,P10,18.0,UPI,success,2023-01-06
+T650,U511,P5,15.0,Credit Card,pending,2023-03-26
+T651,U491,P7,20.0,UPI,success,2023-12-09
+T652,U630,P1,0.0,Credit Card,failed,2023-06-21
+T653,U282,P5,15.0,,success,2023-05-16
+T654,U195,P10,18.0,Credit Card,success,2023-01-28
+T655,U105,P3,25.0,,success,2023-09-28
+T656,U282,P3,25.0,,failed,2023-04-24
+T657,U687,P999,,,success,2023-06-25
+T658,U162,P4,60.0,Net Banking,success,2023-08-21
+T659,U434,P4,60.0,,success,2023-02-26
+T660,U87,P9,0.0,Credit Card,success,2023-08-01
+T661,U129,P1,0.0,Net Banking,success,2023-02-18
+T662,U670,P6,12.0,UPI,success,2023-09-10
+T663,U378,P9,0.0,,success,2023-03-13
+T664,U765,P4,60.0,Debit Card,success,2023-08-30
+T665,U143,P1,0.0,,success,2023-03-28
+T666,U250,P9,0.0,Debit Card,success,2023-07-02
+T667,U789,P2,10.0,,success,2023-08-28
+T668,U180,P4,60.0,,success,2023-04-22
+T669,U712,P999,,Credit Card,success,2023-08-28
+T670,U203,P7,20.0,Credit Card,failed,2023-04-22
+T671,U573,P5,15.0,UPI,failed,2023-10-25
+T672,U192,P5,15.0,Net Banking,success,2023-06-28
+T673,U311,P4,60.0,UPI,success,2023-03-31
+T674,U56,P7,20.0,,success,2023-04-24
+T675,U197,P5,-100.0,Net Banking,success,2023-08-30
+T676,U449,P5,15.0,Debit Card,success,2023-09-14
+T677,U360,P999,,,success,2023-06-17
+T678,U108,P4,60.0,Credit Card,success,2023-05-16
+T679,U615,P4,60.0,UPI,failed,2023-04-08
+T680,U696,P2,10.0,UPI,success,2023-12-09
+T681,U111,P6,12.0,Debit Card,success,2023-03-25
+T682,U761,,,UPI,success,2023-04-06
+T683,U191,,-100.0,UPI,success,2023-06-03
+T684,U490,P1,0.0,Net Banking,success,2023-05-27
+T685,U590,P7,20.0,,success,2023-12-15
+T686,U774,,,Net Banking,success,2023-09-08
+T687,U366,P2,10.0,Net Banking,success,2023-06-18
+T688,U526,P8,30.0,UPI,success,2023-10-05
+T689,U675,P9,0.0,,success,2023-02-07
+T690,U60,P4,60.0,UPI,success,2023-12-04
+T691,U26,P999,,UPI,success,2023-12-21
+T692,U240,,,Net Banking,success,2023-01-05
+T693,U5,P6,12.0,Credit Card,success,2023-10-16
+T694,U390,P8,30.0,Credit Card,success,2023-09-07
+T695,U571,P1,0.0,Net Banking,success,2023-04-20
+T696,U337,P1,0.0,Net Banking,success,2023-03-16
+T697,U419,P3,25.0,,success,2023-08-31
+T698,U317,P999,,,pending,2023-11-18
+T699,U65,P2,10.0,UPI,success,2023-09-25
+T700,U141,P1,0.0,UPI,success,2023-04-10
+T701,U751,P6,12.0,Debit Card,success,2023-04-05
+T702,U284,P10,18.0,UPI,success,2023-08-01
+T703,U136,P3,25.0,,success,2023-05-09
+T704,U201,P8,30.0,UPI,success,2023-05-28
+T705,U487,P3,25.0,Net Banking,success,2023-06-28
+T706,U125,P7,20.0,,success,2023-01-05
+T707,U634,P999,,Net Banking,success,2023-07-19
+T708,U608,P4,60.0,Debit Card,failed,2023-04-09
+T709,U202,P999,,Debit Card,success,2023-12-17
+T710,U6,P3,25.0,,failed,2023-04-27
+T711,U416,P4,60.0,Credit Card,success,2023-04-05
+T712,U76,P2,10.0,Credit Card,Success,2023-06-19
+T713,U791,P2,10.0,,success,2023-08-12
+T714,U83,P999,,,success,2023-09-05
+T715,U69,P9,0.0,Net Banking,pending,2023-03-18
+T716,U718,P10,18.0,Debit Card,success,2023-03-14
+T717,U314,P4,60.0,,success,2023-01-11
+T718,U639,P8,-100.0,UPI,failed,2023-05-03
+T719,U25,P10,18.0,Net Banking,success,2023-08-28
+T720,U738,P2,10.0,Debit Card,success,2023-10-26
+T721,U121,P4,60.0,,success,2023-03-17
+T722,U530,P2,10.0,Debit Card,success,2023-12-02
+T723,U758,P1,0.0,UPI,success,2023-10-10
+T724,U591,P7,20.0,Debit Card,success,2023-07-06
+T725,U575,P5,15.0,Net Banking,success,2023-06-13
+T726,U481,P7,20.0,Debit Card,success,2023-06-27
+T727,U76,P7,20.0,Net Banking,success,2023-01-07
+T728,U663,P4,60.0,,success,2023-08-28
+T729,U381,P10,18.0,UPI,failed,2023-06-11
+T730,U293,P6,12.0,Net Banking,success,2023-04-10
+T731,U195,P1,0.0,Credit Card,success,2023-09-08
+T732,U436,P999,,Credit Card,success,2023-09-27
+T733,U285,P2,10.0,Debit Card,success,2023-07-26
+T734,U34,P5,15.0,,success,2023-11-07
+T735,U653,P7,20.0,,failed,2023-10-09
+T736,U427,P8,30.0,Credit Card,success,2023-03-25
+T737,U221,P8,30.0,Debit Card,success,2023-05-16
+T738,U367,P999,,,success,2023-03-30
+T739,U441,P9,0.0,,success,2023-09-24
+T740,U388,P999,,Debit Card,success,2023-02-27
+T741,U50,P2,10.0,Net Banking,pending,2023-11-06
+T742,U587,P1,0.0,Credit Card,success,2023-08-19
+T743,U278,P999,,,success,2023-09-04
+T744,U589,P7,20.0,Net Banking,success,2023-01-20
+T745,U649,P9,0.0,Net Banking,Success,2023-07-31
+T746,U159,P5,15.0,Net Banking,success,2023-07-13
+T747,U163,P3,-100.0,Net Banking,success,2023-11-21
+T748,U181,P1,0.0,UPI,success,2023-09-09
+T749,U187,P8,30.0,UPI,failed,2023-09-06
+T750,U306,P3,25.0,Debit Card,success,2023-04-23
+T751,U607,P1,0.0,Credit Card,success,2023-12-09
+T752,U225,,,Debit Card,success,2023-10-28
+T753,U348,P9,0.0,UPI,success,2023-03-29
+T754,U618,P1,0.0,Debit Card,success,2023-04-26
+T755,U531,P999,,Debit Card,failed,2023-06-27
+T756,U493,P4,-100.0,Net Banking,failed,2023-12-08
+T757,U795,P9,0.0,,success,2023-04-23
+T758,U30,P8,30.0,UPI,success,2023-12-16
+T759,U793,P4,60.0,UPI,success,2023-11-03
+T760,U96,P2,10.0,Debit Card,success,2023-05-15
+T761,U381,P999,,,success,2023-09-09
+T762,U444,P1,0.0,Debit Card,pending,2023-06-24
+T763,U737,P10,18.0,Credit Card,success,2023-02-23
+T764,U554,P2,10.0,UPI,success,2023-02-21
+T765,U363,P10,18.0,Net Banking,success,2023-10-01
+T766,U12,P6,12.0,Net Banking,success,2023-06-30
+T767,U578,P4,60.0,Net Banking,success,2023-10-13
+T768,U671,P1,0.0,UPI,success,2023-10-02
+T769,U527,P9,0.0,UPI,success,2023-07-14
+T770,U524,,,Net Banking,success,2023-12-18
+T771,U156,P1,0.0,UPI,pending,2023-01-08
+T772,U658,P3,25.0,Net Banking,success,2023-04-30
+T773,U332,P1,0.0,Credit Card,success,2023-01-05
+T774,U420,P8,30.0,Credit Card,pending,2023-06-22
+T775,U22,P7,20.0,Credit Card,success,2023-03-08
+T776,U639,P9,0.0,Debit Card,success,2023-03-03
+T777,U356,P1,0.0,Debit Card,pending,2023-05-21
+T778,U440,P2,10.0,,success,2023-02-23
+T779,U729,P3,25.0,,success,2023-01-16
+T780,U530,P8,30.0,,success,2023-12-17
+T781,U400,P4,60.0,Credit Card,success,2023-12-02
+T782,U599,P6,12.0,Credit Card,success,2023-10-19
+T783,U527,P8,30.0,Credit Card,success,2023-06-18
+T784,U616,P4,60.0,UPI,success,2023-02-06
+T785,U768,P9,0.0,UPI,success,2023-07-02
+T786,U355,P6,12.0,Credit Card,success,2023-08-30
+T787,U476,P999,,Net Banking,success,2023-10-31
+T788,U251,P7,20.0,,failed,2023-12-06
+T789,U797,P5,15.0,Debit Card,success,2023-05-15
+T790,U790,P6,12.0,,success,2023-08-27
+T791,U72,P9,0.0,Net Banking,success,2023-02-20
+T792,U608,P1,-100.0,UPI,success,2023-12-04
+T793,U344,P3,25.0,Credit Card,pending,2023-08-05
+T794,U54,P7,20.0,UPI,success,2023-01-10
+T795,U58,P3,25.0,UPI,success,2023-04-08
+T796,U29,P6,12.0,Net Banking,success,2023-07-24
+T797,U131,P999,,UPI,success,2023-01-06
+T798,U675,P5,-100.0,UPI,success,2023-03-02
+T799,U475,P10,18.0,,success,2023-04-07
+T800,U621,P7,20.0,,success,2023-05-11
+T801,U73,P3,25.0,Net Banking,success,2023-09-18
+T802,U243,P10,18.0,Credit Card,success,2023-07-04
+T803,U441,P10,18.0,,success,2023-08-11
+T804,U200,P5,15.0,UPI,success,2023-09-21
+T805,U137,P6,12.0,Debit Card,success,2023-10-02
+T806,U435,P2,10.0,,failed,2023-09-16
+T807,U779,P4,60.0,Debit Card,success,2023-06-02
+T808,U42,P1,0.0,Credit Card,success,2023-06-19
+T809,U742,P6,12.0,UPI,success,2023-04-30
+T810,U220,P2,10.0,,success,2023-01-22
+T811,U577,,,Credit Card,success,2023-05-13
+T812,U359,P8,30.0,Net Banking,success,2023-02-17
+T813,U652,P5,15.0,Credit Card,failed,2023-02-11
+T814,U269,P6,12.0,Net Banking,success,2023-02-19
+T815,U75,P8,30.0,Net Banking,success,2023-01-19
+T816,U480,P7,20.0,,success,2023-05-21
+T817,U366,P3,25.0,Debit Card,success,2023-05-21
+T818,U634,P9,0.0,Net Banking,success,2023-12-26
+T819,U791,P6,12.0,UPI,success,2023-10-05
+T820,U498,P2,10.0,,success,2023-05-27
+T821,U164,P7,20.0,Net Banking,success,2023-10-08
+T822,U334,P7,20.0,,failed,2023-08-07
+T823,U547,P1,0.0,UPI,success,2023-12-07
+T824,U559,P3,25.0,,failed,2023-03-17
+T825,U306,P999,,,success,2023-07-22
+T826,U488,P999,,Net Banking,success,2023-05-14
+T827,U635,P5,15.0,Credit Card,success,2023-06-25
+T828,U283,P5,15.0,,success,2023-08-23
+T829,U544,P1,0.0,Net Banking,failed,2023-07-05
+T830,U528,P4,60.0,UPI,success,2023-12-26
+T831,U31,P5,15.0,UPI,success,2023-04-19
+T832,U304,P2,10.0,Credit Card,success,2023-06-20
+T833,U542,P7,20.0,UPI,success,2023-03-01
+T834,U203,P10,18.0,Net Banking,success,2023-11-03
+T835,U599,P7,20.0,Credit Card,success,2023-09-06
+T836,U90,P7,20.0,Net Banking,success,2023-03-14
+T837,U44,,,Credit Card,success,2023-02-04
+T838,U19,P10,18.0,Credit Card,failed,2023-01-28
+T839,U524,P6,12.0,Net Banking,success,2023-05-10
+T840,U683,P4,60.0,Credit Card,success,2023-10-09
+T841,U421,P2,10.0,Net Banking,success,2023-10-28
+T842,U605,P2,10.0,UPI,success,2023-04-02
+T843,U22,P5,15.0,UPI,success,2023-03-18
+T844,U172,P10,18.0,,success,2023-08-26
+T845,U503,P6,12.0,Debit Card,success,2023-09-17
+T846,U224,P9,0.0,Debit Card,success,2023-11-04
+T847,U631,P10,18.0,UPI,success,2023-04-22
+T848,U433,P7,20.0,,failed,2023-10-18
+T849,U453,P3,25.0,Debit Card,success,2023-07-10
+T850,U778,P1,0.0,Net Banking,failed,2023-07-15
+T851,U348,P999,,Net Banking,failed,2023-08-01
+T852,U29,P1,0.0,Credit Card,success,2023-06-14
+T853,U623,P1,0.0,Debit Card,pending,2023-12-30
+T854,U294,P4,60.0,Net Banking,success,2023-05-30
+T855,U349,P999,,Debit Card,success,2023-05-22
+T856,U16,P9,0.0,Credit Card,success,2023-12-18
+T857,U195,P999,,UPI,success,2023-04-07
+T858,U333,P7,20.0,,success,2023-07-29
+T859,U226,P4,60.0,Credit Card,success,2023-05-26
+T860,U408,P8,30.0,Credit Card,success,2023-04-03
+T861,U622,P7,20.0,Credit Card,success,2023-05-22
+T862,U465,P4,60.0,,success,2023-10-18
+T863,U494,P999,,Net Banking,success,2023-06-25
+T864,U141,P999,,Debit Card,success,2023-05-30
+T865,U441,P3,25.0,UPI,success,2023-05-30
+T866,U672,P6,12.0,UPI,success,2023-02-13
+T867,U137,P7,20.0,,failed,2023-09-25
+T868,U732,P3,25.0,UPI,success,2023-12-21
+T869,U481,P2,10.0,,success,2023-09-16
+T870,U68,P4,60.0,,success,2023-10-09
+T871,U606,P999,,Debit Card,success,2023-08-11
+T872,U715,P999,,Debit Card,success,2023-08-12
+T873,U147,P9,0.0,,success,2023-05-18
+T874,U35,P10,18.0,Debit Card,success,2023-04-14
+T875,U309,P10,18.0,Net Banking,success,2023-07-07
+T876,U538,P6,12.0,,success,2023-02-24
+T877,U557,P2,10.0,UPI,success,2023-09-25
+T878,U428,P3,25.0,UPI,success,2023-06-21
+T879,U705,P2,10.0,UPI,success,2023-02-19
+T880,U439,P7,20.0,UPI,success,2023-04-09
+T881,U699,P4,60.0,Net Banking,success,2023-10-11
+T882,U692,P3,25.0,Net Banking,pending,2023-02-21
+T883,U177,P10,18.0,Credit Card,pending,2023-09-25
+T884,U611,P9,0.0,,success,2023-01-20
+T885,U127,P4,60.0,Debit Card,success,2023-04-24
+T886,U168,P5,15.0,Credit Card,success,2023-07-27
+T887,U592,P7,20.0,UPI,success,2023-12-31
+T888,U343,P7,20.0,Debit Card,success,2023-09-06
+T889,U528,P6,12.0,,success,2023-06-19
+T890,U685,P1,0.0,UPI,success,2023-12-14
+T891,U646,P1,0.0,Credit Card,success,2023-05-21
+T892,U658,P6,12.0,UPI,pending,2023-11-05
+T893,U463,P3,25.0,UPI,success,2023-12-12
+T894,U225,P5,15.0,Net Banking,failed,2023-07-31
+T895,U50,P999,,UPI,pending,2023-10-10
+T896,U432,P7,20.0,Credit Card,success,2023-09-21
+T897,U347,P8,30.0,Debit Card,success,2023-01-27
+T898,U109,P999,,Net Banking,success,2023-06-13
+T899,U660,P999,,Debit Card,success,2023-03-06
+T900,U758,P10,18.0,,success,2023-12-10
+T901,U58,P7,20.0,Debit Card,success,2023-11-27
+T902,U498,P2,10.0,,failed,2023-01-08
+T903,U134,P7,20.0,,failed,2023-08-16
+T904,U550,P4,60.0,Net Banking,success,2023-09-15
+T905,U168,P4,60.0,Debit Card,success,2023-10-04
+T906,U503,P999,,UPI,success,2023-04-10
+T907,U146,,,Net Banking,success,2023-12-22
+T908,U702,P999,,,success,2023-01-10
+T909,U126,P10,18.0,UPI,success,2023-08-03
+T910,U25,P3,25.0,Debit Card,success,2023-11-20
+T911,U481,P5,15.0,Net Banking,success,2023-08-15
+T912,U345,P9,0.0,,success,2023-04-29
+T913,U491,P5,15.0,UPI,success,2023-07-29
+T914,U287,P8,30.0,Credit Card,failed,2023-02-20
+T915,U756,P8,30.0,Net Banking,success,2023-06-24
+T916,U329,,,,success,2023-07-19
+T917,U621,P5,15.0,Debit Card,success,2023-10-03
+T918,U137,P999,,Debit Card,failed,2023-05-08
+T919,U79,P7,20.0,UPI,success,2023-01-24
+T920,U330,P999,,,pending,2023-10-23
+T921,U366,P1,0.0,UPI,success,2023-01-26
+T922,U485,P9,0.0,Net Banking,success,2023-01-26
+T923,U509,P5,15.0,UPI,success,2023-11-21
+T924,U74,P4,60.0,Credit Card,success,2023-08-29
+T925,U73,P1,0.0,UPI,Success,2024-01-01
+T926,U719,P4,60.0,UPI,success,2023-04-03
+T927,U151,P9,0.0,Net Banking,success,2023-07-05
+T928,U788,P2,10.0,,success,2023-01-20
+T929,U732,P3,25.0,Credit Card,failed,2023-11-13
+T930,U106,P1,0.0,UPI,success,2023-04-03
+T931,U582,P3,25.0,Net Banking,pending,2023-02-08
+T932,U587,P4,60.0,Net Banking,success,2023-09-17
+T933,U726,P4,60.0,Net Banking,success,2023-11-09
+T934,U467,P2,10.0,,failed,2023-06-16
+T935,U584,P8,30.0,UPI,Success,2023-10-27
+T936,U554,P7,20.0,Debit Card,pending,2023-11-12
+T937,U173,P5,15.0,Credit Card,success,2023-01-26
+T938,U548,P6,12.0,Debit Card,success,2023-09-30
+T939,U215,,,,success,2023-08-27
+T940,U439,P4,60.0,UPI,failed,2023-03-28
+T941,U538,P999,,Debit Card,pending,2023-08-13
+T942,U166,P1,0.0,Debit Card,success,2023-08-14
+T943,U189,P3,25.0,Debit Card,success,2023-02-19
+T944,U566,P9,0.0,Credit Card,success,2023-07-16
+T945,U328,P7,20.0,UPI,success,2024-01-01
+T946,U312,P1,0.0,Net Banking,success,2023-07-20
+T947,U708,P5,15.0,UPI,success,2023-08-03
+T948,U758,P5,15.0,Debit Card,success,2023-02-03
+T949,U616,P1,0.0,UPI,success,2023-02-07
+T950,U283,P999,,Net Banking,success,2023-03-17
+T951,U575,P999,,Credit Card,success,2023-05-22
+T952,U432,P3,25.0,UPI,success,2023-11-10
+T953,U224,P4,60.0,UPI,success,2023-04-25
+T954,U611,P9,0.0,Credit Card,success,2023-09-17
+T955,U253,P2,10.0,Credit Card,success,2023-07-13
+T956,U628,,,Debit Card,success,2023-12-06
+T957,U663,P4,60.0,Debit Card,success,2023-01-08
+T958,U502,P999,,Credit Card,success,2023-06-27
+T959,U481,P10,18.0,Net Banking,success,2023-01-17
+T960,U701,P6,12.0,Debit Card,failed,2023-04-05
+T961,U222,P5,15.0,Net Banking,success,2023-03-30
+T962,U349,P3,25.0,Credit Card,success,2023-10-28
+T963,U502,P5,15.0,UPI,success,2023-07-09
+T964,U550,P8,30.0,Credit Card,success,2023-12-08
+T965,U14,P999,,Credit Card,success,2023-06-06
+T966,U392,P4,60.0,,success,2023-12-19
+T967,U386,P999,,Credit Card,success,2023-06-04
+T968,U357,P7,20.0,Debit Card,success,2023-09-27
+T969,U601,P3,25.0,UPI,failed,2023-10-15
+T970,U568,P5,15.0,Net Banking,success,2023-07-23
+T971,U445,P3,25.0,,pending,2023-06-20
+T972,U784,P10,18.0,Debit Card,success,2023-02-24
+T973,U442,P7,20.0,UPI,success,2023-10-27
+T974,U132,P10,18.0,Net Banking,success,2023-07-21
+T975,U482,P7,20.0,UPI,success,2023-07-30
+T976,U660,P3,25.0,Debit Card,success,2023-05-21
+T977,U528,P6,12.0,UPI,success,2023-05-15
+T978,U617,P999,,Credit Card,success,2023-06-30
+T979,U165,P4,60.0,UPI,success,2023-02-19
+T980,U697,P10,18.0,Credit Card,success,2023-12-08
+T981,U265,P5,15.0,Debit Card,success,2023-10-14
+T982,U342,P3,25.0,,failed,2023-05-12
+T983,U278,P4,60.0,Credit Card,failed,2023-08-15
+T984,U161,P9,0.0,UPI,success,2023-11-15
+T985,U228,P3,25.0,UPI,success,2023-04-01
+T986,U318,P8,30.0,UPI,success,2023-02-06
+T987,U694,,,Debit Card,success,2023-01-26
+T988,U189,P5,15.0,Net Banking,success,2023-04-10
+T989,U499,P7,20.0,UPI,pending,2023-11-04
+T990,U762,P8,30.0,UPI,failed,2023-10-08
+T991,U296,P3,25.0,Credit Card,success,2023-05-22
+T992,U506,P5,15.0,,success,2023-11-21
+T993,U193,P2,10.0,UPI,success,2023-01-21
+T994,U494,P6,12.0,Debit Card,success,2023-08-01
+T995,U474,P2,-100.0,Net Banking,success,2023-06-14
+T996,U521,P10,18.0,Net Banking,success,2023-10-08
+T997,U65,P999,,Net Banking,success,2023-03-29
+T998,U369,P8,30.0,Debit Card,success,2023-12-20
+T999,U536,P5,15.0,Net Banking,success,2023-09-12
+T1000,U431,P5,15.0,Net Banking,success,2023-03-18
+T1001,U212,P5,15.0,Credit Card,success,2023-07-28
+T1002,U554,P1,0.0,Net Banking,success,2023-04-05
+T1003,U610,P999,-100.0,Credit Card,success,2023-08-12
+T1004,U158,P8,30.0,Credit Card,success,2023-10-02
+T1005,U122,P2,10.0,Credit Card,success,2023-05-22
+T1006,U471,P1,0.0,Debit Card,success,2023-03-05
+T1007,U278,P4,60.0,UPI,success,2023-12-24
+T1008,U114,P3,25.0,,success,2023-04-21
+T1009,U54,P7,20.0,Net Banking,Success,2023-06-28
+T1010,U704,P6,12.0,,success,2023-09-07
+T1011,U391,P3,25.0,UPI,success,2023-05-10
+T1012,U693,P6,12.0,Credit Card,success,2023-10-28
+T1013,U96,P5,15.0,Credit Card,success,2023-08-27
+T1014,U10,P2,10.0,Credit Card,success,2023-10-14
+T1015,U81,P1,0.0,Credit Card,success,2023-04-18
+T1016,U150,P1,0.0,Net Banking,success,2023-04-08
+T1017,U501,P3,25.0,UPI,pending,2023-04-20
+T1018,U211,P4,60.0,UPI,success,2023-02-25
+T1019,U45,P7,20.0,UPI,success,2023-03-25
+T1020,U794,P7,20.0,,success,2023-06-17
+T1021,U567,P6,12.0,Credit Card,pending,2023-04-07
+T1022,U69,P5,15.0,Debit Card,success,2023-06-24
+T1023,U599,P7,20.0,UPI,success,2023-05-30
+T1024,U631,P4,60.0,,success,2023-03-19
+T1025,U547,P2,10.0,Net Banking,success,2023-05-12
+T1026,U546,P7,20.0,Credit Card,failed,2023-04-20
+T1027,U609,P7,20.0,,success,2023-08-22
+T1028,U287,P6,12.0,Debit Card,success,2023-08-27
+T1029,U594,P3,25.0,Debit Card,success,2023-08-07
+T1030,U10,P1,0.0,Net Banking,success,2023-12-27
+T1031,U527,P10,18.0,UPI,success,2023-10-21
+T1032,U284,P3,25.0,UPI,pending,2023-09-18
+T1033,U639,P9,0.0,,success,2023-06-01
+T1034,U13,P5,15.0,,success,2023-11-27
+T1035,U271,P5,15.0,,success,2023-01-25
+T1036,U537,P7,-100.0,UPI,success,2023-02-06
+T1037,U424,P8,30.0,,success,2023-12-15
+T1038,U609,P7,20.0,Credit Card,success,2023-06-14
+T1039,U728,P8,30.0,Debit Card,success,2023-12-09
+T1040,U341,P1,0.0,Debit Card,success,2023-11-25
+T1041,U557,P3,25.0,Net Banking,success,2023-10-10
+T1042,U82,P7,20.0,Debit Card,success,2023-11-27
+T1043,U559,P1,0.0,,success,2023-07-10
+T1044,U450,P3,25.0,Credit Card,failed,2023-03-24
+T1045,U588,P6,12.0,,success,2023-03-23
+T1046,U567,P9,0.0,UPI,success,2023-12-22
+T1047,U355,P5,15.0,UPI,success,2023-10-17
+T1048,U302,P4,60.0,Debit Card,success,2023-08-20
+T1049,U408,P7,20.0,Credit Card,success,2023-06-07
+T1050,U144,P8,30.0,Net Banking,success,2023-01-13
+T1051,U336,P7,20.0,,success,2023-03-28
+T1052,U90,P4,60.0,Net Banking,success,2023-09-10
+T1053,U575,P7,20.0,Net Banking,success,2023-01-15
+T1054,U140,P8,30.0,Net Banking,success,2023-06-13
+T1055,U791,P10,18.0,Net Banking,failed,2023-08-12
+T1056,U699,P4,60.0,,success,2023-07-01
+T1057,U183,P6,12.0,UPI,success,2023-01-16
+T1058,U322,P999,,,success,2023-11-26
+T1059,U556,P2,10.0,UPI,success,2023-05-07
+T1060,U192,P2,10.0,UPI,success,2023-12-05
+T1061,U480,P8,30.0,,success,2023-11-28
+T1062,U357,P2,10.0,,success,2023-11-15
+T1063,U235,P7,20.0,,success,2023-11-07
+T1064,U535,P6,12.0,UPI,success,2023-10-03
+T1065,U529,P3,25.0,,success,2023-04-10
+T1066,U546,P4,60.0,Credit Card,success,2023-04-06
+T1067,U735,P7,20.0,Debit Card,success,2023-08-07
+T1068,U397,P999,,Debit Card,success,2023-11-02
+T1069,U132,P10,18.0,Credit Card,failed,2023-10-12
+T1070,U197,P1,0.0,Debit Card,success,2023-09-03
+T1071,U81,P999,,UPI,success,2023-07-17
+T1072,U774,P6,12.0,,success,2023-08-16
+T1073,U307,P3,25.0,,success,2023-06-14
+T1074,U522,P1,0.0,,success,2023-10-21
+T1075,U469,P9,0.0,Credit Card,success,2023-02-07
+T1076,U112,P10,18.0,Credit Card,success,2023-08-06
+T1077,U253,P9,0.0,UPI,success,2023-10-08
+T1078,U526,P8,30.0,Credit Card,failed,2023-10-21
+T1079,U438,P6,12.0,,failed,2023-09-30
+T1080,U410,P5,15.0,UPI,success,2023-04-25
+T1081,U375,,,UPI,success,2023-02-02
+T1082,U446,P5,15.0,,success,2023-06-22
+T1083,U378,P999,,Net Banking,success,2023-06-23
+T1084,U390,P1,0.0,,failed,2023-12-08
+T1085,U657,P3,25.0,UPI,success,2023-07-25
+T1086,U235,P4,60.0,Net Banking,pending,2023-08-13
+T1087,U110,P7,20.0,,failed,2023-06-01
+T1088,U746,P1,0.0,,failed,2023-06-03
+T1089,U25,P9,0.0,Net Banking,success,2023-12-14
+T1090,U530,P1,0.0,Net Banking,success,2023-03-05
+T1091,U435,P10,18.0,Debit Card,success,2023-06-06
+T1092,U402,P3,25.0,Net Banking,success,2023-04-15
+T1093,U88,P8,30.0,Credit Card,success,2023-04-09
+T1094,U525,P3,25.0,Net Banking,failed,2023-12-22
+T1095,U42,P8,30.0,UPI,success,2023-01-10
+T1096,U792,,,Net Banking,success,2023-09-15
+T1097,U182,P6,12.0,,success,2023-03-05
+T1098,U13,P4,60.0,Credit Card,success,2023-02-28
+T1099,U339,P8,30.0,Net Banking,success,2023-04-11
+T1100,U259,P6,12.0,Credit Card,failed,2023-01-31
+T1101,U258,P4,60.0,Debit Card,success,2023-03-14
+T1102,U204,P4,60.0,Credit Card,success,2023-12-16
+T1103,U783,P3,25.0,,success,2023-09-09
+T1104,U459,P4,60.0,Debit Card,success,2023-03-26
+T1105,U169,P3,25.0,Net Banking,success,2023-09-09
+T1106,U693,P2,10.0,Credit Card,success,2023-02-19
+T1107,U366,P8,30.0,Debit Card,success,2023-12-28
+T1108,U416,P999,,Net Banking,success,2023-05-07
+T1109,U143,P3,25.0,Net Banking,success,2023-07-18
+T1110,U496,P1,0.0,Credit Card,success,2023-06-14
+T1111,U237,P5,15.0,Credit Card,success,2023-10-28
+T1112,U189,P10,18.0,Debit Card,success,2023-03-15
+T1113,U255,P7,20.0,Credit Card,success,2023-12-04
+T1114,U616,P10,18.0,Net Banking,success,2023-12-13
+T1115,U336,P2,10.0,,success,2023-08-15
+T1116,U671,P4,60.0,Debit Card,success,2023-06-02
+T1117,U368,P2,10.0,,success,2023-10-25
+T1118,U181,P7,20.0,,success,2023-07-21
+T1119,U105,P8,30.0,Net Banking,success,2023-07-05
+T1120,U200,P999,,,success,2023-08-02
+T1121,U586,P8,30.0,UPI,failed,2023-12-28
+T1122,U377,P7,20.0,Debit Card,success,2023-05-22
+T1123,U221,P4,60.0,Net Banking,success,2023-04-27
+T1124,U182,P10,18.0,Credit Card,success,2023-07-25
+T1125,U396,P6,12.0,,success,2023-03-03
+T1126,U481,P4,60.0,Credit Card,success,2023-08-22
+T1127,U281,P5,15.0,Net Banking,failed,2023-12-25
+T1128,U101,,,UPI,success,2023-04-08
+T1129,U521,P9,0.0,Debit Card,success,2023-09-29
+T1130,U429,P4,60.0,,success,2023-02-02
+T1131,U434,P5,15.0,Net Banking,failed,2023-05-13
+T1132,U207,P5,15.0,Debit Card,success,2023-06-07
+T1133,U513,P1,0.0,Debit Card,failed,2023-02-20
+T1134,U170,P7,20.0,Debit Card,success,2023-07-01
+T1135,U758,P10,18.0,Debit Card,success,2023-08-03
+T1136,U215,P999,,Debit Card,success,2023-05-24
+T1137,U744,P5,15.0,,success,2023-10-12
+T1138,U239,,,,success,2023-02-27
+T1139,U560,P3,25.0,Net Banking,success,2023-11-20
+T1140,U51,P1,0.0,Credit Card,success,2023-08-12
+T1141,U728,P2,10.0,Net Banking,success,2023-03-02
+T1142,U754,P999,,Debit Card,Success,2023-10-24
+T1143,U469,P2,10.0,Credit Card,success,2023-04-14
+T1144,U415,P9,0.0,Net Banking,success,2023-10-20
+T1145,U84,P9,0.0,Credit Card,success,2023-12-07
+T1146,U37,,,,success,2023-11-08
+T1147,U402,P2,10.0,Debit Card,failed,2023-01-09
+T1148,U206,P10,18.0,Credit Card,success,2023-12-03
+T1149,U488,P999,,UPI,success,2023-01-18
+T1150,U580,P9,0.0,Debit Card,success,2023-01-04
+T1151,U507,P1,0.0,,success,2023-03-30
+T1152,U778,P999,,,success,2023-01-29
+T1153,U78,P5,15.0,Net Banking,success,2023-11-14
+T1154,U85,P8,30.0,UPI,success,2023-10-12
+T1155,U673,P10,18.0,Credit Card,failed,2023-03-19
+T1156,U653,P10,18.0,Net Banking,success,2023-06-01
+T1157,U80,P8,30.0,,pending,2023-09-27
+T1158,U694,P5,15.0,Credit Card,success,2023-03-08
+T1159,U25,P8,-100.0,,success,2023-02-06
+T1160,U156,P9,0.0,,success,2023-09-29
+T1161,U605,P8,30.0,UPI,success,2023-09-07
+T1162,U19,P9,0.0,Debit Card,success,2023-05-12
+T1163,U426,P5,15.0,Credit Card,success,2023-07-25
+T1164,U323,P999,,UPI,success,2023-05-23
+T1165,U237,P2,10.0,,success,2023-09-14
+T1166,U55,P999,,,success,2023-10-10
+T1167,U109,P10,18.0,UPI,success,2023-03-05
+T1168,U368,P7,20.0,Credit Card,failed,2023-09-27
+T1169,U371,P7,20.0,,success,2023-07-24
+T1170,U118,P3,-100.0,Credit Card,success,2023-02-27
+T1171,U703,P5,15.0,UPI,success,2023-11-09
+T1172,U42,P1,0.0,,success,2023-09-20
+T1173,U529,P4,60.0,Net Banking,success,2023-08-31
+T1174,U424,,,Net Banking,success,2023-10-26
+T1175,U670,P8,30.0,,success,2023-01-13
+T1176,U728,P9,0.0,Debit Card,success,2023-06-15
+T1177,U14,P8,30.0,,pending,2023-11-25
+T1178,U798,P7,20.0,,failed,2023-08-04
+T1179,U271,P4,60.0,,pending,2023-04-07
+T1180,U419,P6,12.0,UPI,success,2023-09-20
+T1181,U433,P3,25.0,,success,2023-07-25
+T1182,U522,P2,10.0,,success,2023-02-18
+T1183,U47,P1,0.0,UPI,success,2024-01-01
+T1184,U96,P3,25.0,,success,2023-05-05
+T1185,U146,P7,20.0,Net Banking,success,2023-05-05
+T1186,U679,P8,30.0,Net Banking,failed,2023-06-04
+T1187,U584,P6,12.0,,success,2023-07-27
+T1188,U766,P7,20.0,UPI,success,2023-10-12
+T1189,U398,P6,12.0,,success,2023-11-24
+T1190,U194,P4,60.0,,pending,2023-10-22
+T1191,U718,P8,30.0,Credit Card,success,2023-09-24
+T1192,U404,P999,,Debit Card,pending,2023-05-15
+T1193,U678,P4,60.0,UPI,pending,2023-10-22
+T1194,U351,P3,25.0,Debit Card,success,2023-07-02
+T1195,U658,P7,20.0,Credit Card,failed,2023-12-18
+T1196,U119,P7,20.0,Debit Card,success,2023-09-20
+T1197,U486,P999,,,success,2023-09-18
+T1198,U418,P6,12.0,Net Banking,success,2023-10-09
+T1199,U78,P4,60.0,UPI,failed,2023-04-22
+T1200,U214,P10,18.0,UPI,success,2023-05-20
+T1201,U93,P10,18.0,,success,2023-09-08
+T1202,U688,P4,60.0,Debit Card,success,2023-05-01
+T1203,U519,P10,18.0,UPI,success,2023-12-13
+T1204,U269,P3,25.0,Credit Card,success,2023-05-27
+T1205,U152,P8,30.0,Credit Card,pending,2023-11-20
+T1206,U483,P999,,Debit Card,success,2023-02-03
+T1207,U620,P5,15.0,Credit Card,success,2023-08-13
+T1208,U355,P7,20.0,Net Banking,success,2023-10-10
+T1209,U442,P2,10.0,,success,2023-10-02
+T1210,U615,P3,25.0,UPI,success,2023-01-28
+T1211,U13,P10,18.0,,success,2023-07-14
+T1212,U525,P10,18.0,Debit Card,failed,2023-07-29
+T1213,U120,P6,12.0,,success,2023-03-17
+T1214,U57,P8,30.0,UPI,success,2023-04-10
+T1215,U640,P5,15.0,UPI,failed,2023-01-08
+T1216,U173,P5,15.0,Debit Card,success,2023-06-06
+T1217,U259,P4,60.0,UPI,success,2023-11-28
+T1218,U117,P1,0.0,Credit Card,success,2023-03-27
+T1219,U184,P10,18.0,,success,2023-01-25
+T1220,U162,P1,-100.0,Net Banking,success,2023-01-27
+T1221,U66,P8,30.0,Net Banking,success,2023-05-30
+T1222,U532,P3,25.0,Net Banking,success,2023-02-20
+T1223,U657,P7,20.0,Debit Card,success,2023-02-22
+T1224,U326,P6,12.0,Net Banking,success,2023-08-11
+T1225,U52,P10,18.0,,success,2023-01-25
+T1226,U479,P9,0.0,UPI,success,2023-03-01
+T1227,U650,P10,18.0,Credit Card,success,2023-08-10
+T1228,U688,P3,25.0,Net Banking,success,2023-06-04
+T1229,U300,P999,,Net Banking,success,2023-05-05
+T1230,U16,P7,20.0,Net Banking,failed,2023-10-20
+T1231,U610,P7,20.0,Credit Card,Success,2023-08-09
+T1232,U314,P8,30.0,,success,2023-04-28
+T1233,U493,P2,10.0,Net Banking,failed,2023-07-26
+T1234,U426,P8,30.0,UPI,success,2023-06-15
+T1235,U187,P6,12.0,Debit Card,success,2023-01-08
+T1236,U453,,,Credit Card,success,2023-08-21
+T1237,U560,,,,success,2023-03-03
+T1238,U637,P10,18.0,UPI,success,2023-11-14
+T1239,U39,P2,10.0,Credit Card,success,2023-07-05
+T1240,U442,P9,0.0,Credit Card,success,2023-05-03
+T1241,U66,P3,25.0,Debit Card,success,2023-03-18
+T1242,U603,P3,25.0,Debit Card,success,2023-01-01
+T1243,U111,P999,,,success,2023-04-29
+T1244,U123,P999,,Net Banking,success,2023-05-03
+T1245,U611,P1,0.0,Debit Card,success,2023-07-25
+T1246,U412,P7,20.0,,pending,2023-07-24
+T1247,U43,P2,10.0,Credit Card,success,2023-02-10
+T1248,U703,P9,0.0,Net Banking,success,2023-06-26
+T1249,U210,P8,30.0,UPI,success,2023-07-04
+T1250,U509,P9,0.0,Credit Card,success,2023-02-01
+T1251,U581,P6,12.0,,success,2023-12-30
+T1252,U189,P9,0.0,UPI,success,2023-10-10
+T1253,U676,P9,0.0,Credit Card,success,2023-07-25
+T1254,U85,P7,20.0,Debit Card,pending,2023-10-13
+T1255,U49,P2,10.0,,success,2023-09-26
+T1256,U701,P5,15.0,UPI,success,2023-06-15
+T1257,U26,P6,12.0,Debit Card,success,2023-09-11
+T1258,U656,P2,10.0,UPI,success,2023-03-25
+T1259,U311,P6,12.0,Net Banking,success,2023-04-10
+T1260,U678,P2,10.0,Net Banking,success,2023-03-06
+T1261,U358,P3,25.0,,success,2023-01-16
+T1262,U776,P9,0.0,UPI,success,2023-08-22
+T1263,U609,P4,60.0,Net Banking,success,2023-03-08
+T1264,U371,P10,18.0,Credit Card,success,2023-09-27
+T1265,U58,P1,-100.0,Credit Card,success,2023-09-16
+T1266,U302,P8,30.0,Net Banking,success,2023-07-22
+T1267,U271,P5,15.0,Net Banking,success,2023-07-02
+T1268,U606,P5,15.0,,success,2023-06-10
+T1269,U407,P4,60.0,,success,2023-10-08
+T1270,U744,P10,18.0,Credit Card,success,2023-07-15
+T1271,U678,P3,25.0,Debit Card,failed,2023-02-15
+T1272,U505,P9,0.0,UPI,pending,2023-04-10
+T1273,U603,P3,25.0,Debit Card,success,2023-09-22
+T1274,U283,P9,0.0,,success,2023-12-23
+T1275,U537,P5,15.0,Debit Card,failed,2023-05-09
+T1276,U129,P7,20.0,,pending,2023-09-07
+T1277,U665,P6,12.0,Debit Card,success,2023-07-25
+T1278,U599,P10,18.0,Credit Card,success,2023-06-19
+T1279,U2,P1,0.0,,success,2023-08-02
+T1280,U204,P1,0.0,Credit Card,success,2023-11-08
+T1281,U205,P10,18.0,Debit Card,success,2023-09-02
+T1282,U212,P2,10.0,Net Banking,success,2023-07-30
+T1283,U749,P999,,Net Banking,pending,2023-02-01
+T1284,U216,P4,60.0,UPI,success,2023-09-03
+T1285,U477,P9,0.0,Net Banking,success,2023-05-02
+T1286,U536,P9,0.0,UPI,success,2023-03-28
+T1287,U540,P4,60.0,Debit Card,success,2023-04-06
+T1288,U243,P7,20.0,UPI,success,2023-04-13
+T1289,U730,P8,30.0,UPI,success,2023-03-13
+T1290,U580,P7,20.0,UPI,success,2023-01-30
+T1291,U299,P3,25.0,Credit Card,success,2023-06-07
+T1292,U394,P3,-100.0,UPI,success,2023-04-24
+T1293,U716,P7,20.0,,success,2023-05-24
+T1294,U538,P10,18.0,Debit Card,success,2023-03-05
+T1295,U112,P6,12.0,Credit Card,success,2023-12-15
+T1296,U310,P4,60.0,,success,2023-02-02
+T1297,U640,P8,30.0,Debit Card,success,2023-04-18
+T1298,U728,P9,0.0,Credit Card,pending,2023-07-10
+T1299,U676,P1,0.0,Debit Card,success,2023-10-04
+T1300,U681,P2,10.0,Net Banking,success,2023-04-18
+T1301,U391,P9,0.0,Debit Card,failed,2023-08-18
+T1302,U615,P9,0.0,Net Banking,failed,2023-08-08
+T1303,U336,P3,25.0,Net Banking,success,2023-04-27
+T1304,U188,P2,10.0,Debit Card,failed,2023-09-16
+T1305,U238,P4,60.0,Net Banking,success,2023-05-27
+T1306,U391,P9,0.0,Credit Card,success,2023-02-01
+T1307,U171,P5,15.0,Net Banking,success,2023-11-24
+T1308,U649,P4,60.0,UPI,success,2023-10-16
+T1309,U9,P9,0.0,Credit Card,success,2023-01-08
+T1310,U682,P2,10.0,Credit Card,failed,2023-01-03
+T1311,U82,P4,60.0,Credit Card,success,2023-01-14
+T1312,U172,P1,0.0,UPI,pending,2023-05-11
+T1313,U62,P4,60.0,UPI,success,2023-07-13
+T1314,U255,P4,60.0,UPI,success,2023-01-15
+T1315,U461,P3,25.0,UPI,success,2023-11-01
+T1316,U391,P4,60.0,UPI,success,2023-07-27
+T1317,U374,P5,15.0,,success,2023-11-01
+T1318,U649,P8,30.0,,success,2023-09-22
+T1319,U32,P1,0.0,UPI,success,2023-04-02
+T1320,U798,P5,15.0,Credit Card,success,2023-09-06
+T1321,U62,P2,10.0,Net Banking,success,2023-12-20
+T1322,U393,P1,0.0,Net Banking,success,2023-11-15
+T1323,U758,P1,0.0,,success,2023-07-07
+T1324,U671,P4,60.0,UPI,success,2023-09-04
+T1325,U576,P2,10.0,Debit Card,success,2023-04-11
+T1326,U581,P8,30.0,Net Banking,pending,2023-02-12
+T1327,U383,P2,10.0,Net Banking,success,2023-06-01
+T1328,U162,P4,60.0,Credit Card,success,2023-04-19
+T1329,U26,P2,10.0,Net Banking,success,2023-04-20
+T1330,U313,P7,20.0,,success,2023-01-18
+T1331,U57,P10,18.0,UPI,success,2023-01-15
+T1332,U716,P5,15.0,UPI,success,2023-06-26
+T1333,U329,P999,,Net Banking,success,2023-09-16
+T1334,U115,P7,20.0,Debit Card,success,2023-11-25
+T1335,U275,P10,18.0,,success,2023-03-03
+T1336,U328,P7,20.0,Net Banking,success,2023-05-28
+T1337,U552,P3,25.0,,Success,2023-01-11
+T1338,U538,P999,,Debit Card,pending,2023-09-29
+T1339,U753,P6,12.0,,success,2023-05-21
+T1340,U106,P6,12.0,,success,2023-11-02
+T1341,U446,P9,0.0,,success,2023-03-01
+T1342,U150,P1,0.0,UPI,success,2023-10-09
+T1343,U455,P6,12.0,Debit Card,success,2023-03-08
+T1344,U653,P5,15.0,UPI,success,2023-11-24
+T1345,U725,P4,60.0,Credit Card,success,2023-01-18
+T1346,U79,P7,-100.0,Net Banking,success,2023-02-24
+T1347,U210,P5,15.0,UPI,success,2023-07-30
+T1348,U460,P9,0.0,,failed,2023-07-27
+T1349,U133,P6,12.0,Credit Card,success,2023-11-14
+T1350,U604,P10,18.0,Debit Card,failed,2023-08-11
+T1351,U29,P1,0.0,Debit Card,success,2023-03-15
+T1352,U720,P999,,UPI,pending,2023-03-30
+T1353,U24,P5,15.0,,success,2023-03-14
+T1354,U99,P4,60.0,,success,2023-06-08
+T1355,U406,P7,20.0,Debit Card,success,2023-02-24
+T1356,U503,P8,30.0,,failed,2023-06-01
+T1357,U655,P5,15.0,Net Banking,success,2023-08-09
+T1358,U299,P3,25.0,,success,2023-08-01
+T1359,U672,P8,30.0,UPI,failed,2023-10-20
+T1360,U437,P6,12.0,,success,2023-12-31
+T1361,U83,P7,20.0,Debit Card,success,2023-02-14
+T1362,U379,P9,0.0,Net Banking,success,2023-10-18
+T1363,U347,P8,30.0,,success,2023-10-23
+T1364,U728,P5,15.0,Net Banking,success,2023-12-03
+T1365,U673,P8,30.0,Credit Card,success,2023-11-23
+T1366,U115,P6,12.0,,pending,2023-12-31
+T1367,U2,P6,12.0,Net Banking,success,2023-10-01
+T1368,U101,P4,60.0,,failed,2023-01-25
+T1369,U389,P8,30.0,Debit Card,success,2023-08-26
+T1370,U20,P4,60.0,Debit Card,success,2023-12-22
+T1371,U633,P8,30.0,Debit Card,success,2023-12-16
+T1372,U26,P999,-100.0,Credit Card,success,2023-04-16
+T1373,U13,P4,60.0,Debit Card,success,2023-12-28
+T1374,U697,P6,12.0,,success,2023-04-10
+T1375,U468,P5,15.0,UPI,success,2023-01-06
+T1376,U200,P999,,UPI,success,2023-07-10
+T1377,U332,P2,10.0,,success,2023-07-18
+T1378,U717,P2,10.0,UPI,success,2023-11-26
+T1379,U601,P5,15.0,Net Banking,success,2023-06-07
+T1380,U240,P999,,UPI,success,2023-06-19
+T1381,U700,P4,60.0,Credit Card,failed,2023-02-20
+T1382,U507,P5,15.0,Debit Card,success,2023-02-13
+T1383,U169,P5,15.0,UPI,failed,2023-12-27
+T1384,U305,P10,18.0,UPI,success,2023-08-11
+T1385,U775,P5,15.0,Credit Card,pending,2023-07-12
+T1386,U90,P4,60.0,Credit Card,success,2023-09-28
+T1387,U311,P9,0.0,UPI,success,2023-09-26
+T1388,U227,P5,15.0,Net Banking,success,2023-07-11
+T1389,U158,P4,60.0,UPI,failed,2023-01-31
+T1390,U446,P6,12.0,Net Banking,success,2023-03-13
+T1391,U73,P8,30.0,Debit Card,success,2023-06-19
+T1392,U531,P10,18.0,,success,2023-10-04
+T1393,U731,P3,25.0,Debit Card,success,2023-11-29
+T1394,U632,P2,10.0,UPI,success,2023-01-16
+T1395,U202,P3,25.0,UPI,success,2023-03-06
+T1396,U218,P999,,Net Banking,success,2023-06-19
+T1397,U765,P7,20.0,Credit Card,success,2023-09-21
+T1398,U739,P1,0.0,Net Banking,success,2023-06-18
+T1399,U424,P4,60.0,Credit Card,success,2023-07-29
+T1400,U21,P8,30.0,Credit Card,success,2023-08-05
+T1401,U690,P1,0.0,Credit Card,success,2023-07-28
+T1402,U288,P6,12.0,Credit Card,success,2023-04-25
+T1403,U665,P9,0.0,UPI,success,2023-08-25
+T1404,U103,P9,0.0,,success,2023-04-18
+T1405,U769,P2,10.0,,success,2023-07-01
+T1406,U477,P9,0.0,Debit Card,success,2023-08-25
+T1407,U237,P2,10.0,Debit Card,success,2023-12-25
+T1408,U502,P9,0.0,Debit Card,success,2023-10-06
+T1409,U25,P999,-100.0,Net Banking,success,2023-03-05
+T1410,U288,P5,15.0,Debit Card,success,2023-08-09
+T1411,U338,P7,20.0,Debit Card,success,2023-12-07
+T1412,U137,P999,,Debit Card,success,2023-05-28
+T1413,U508,P7,20.0,UPI,success,2023-12-23
+T1414,U467,P1,0.0,Debit Card,success,2023-09-17
+T1415,U779,P2,10.0,,success,2023-11-12
+T1416,U100,P7,20.0,UPI,success,2023-09-05
+T1417,U599,P1,0.0,Credit Card,success,2023-01-04
+T1418,U364,P9,0.0,Net Banking,success,2023-01-13
+T1419,U84,P999,,UPI,success,2023-09-13
+T1420,U271,P4,60.0,UPI,success,2023-08-13
+T1421,U388,P2,10.0,,success,2023-01-22
+T1422,U791,P5,15.0,Debit Card,success,2023-06-13
+T1423,U648,P9,0.0,Credit Card,success,2023-02-10
+T1424,U139,P10,18.0,,success,2023-10-06
+T1425,U483,P2,10.0,,success,2023-11-26
+T1426,U78,P4,60.0,UPI,pending,2023-09-09
+T1427,U149,P10,18.0,Credit Card,success,2023-08-30
+T1428,U480,P6,12.0,,success,2023-06-02
+T1429,U518,P6,12.0,Net Banking,success,2023-07-13
+T1430,U770,P7,20.0,Net Banking,success,2023-05-26
+T1431,U480,P3,25.0,,failed,2023-06-12
+T1432,U416,P5,15.0,UPI,success,2023-03-15
+T1433,U280,P999,,Net Banking,success,2023-03-25
+T1434,U321,P5,15.0,UPI,failed,2023-11-15
+T1435,U274,,,Debit Card,success,2023-08-20
+T1436,U116,P3,25.0,Debit Card,success,2023-11-22
+T1437,U648,P8,30.0,UPI,success,2023-03-15
+T1438,U618,P1,0.0,,success,2023-03-05
+T1439,U237,P999,,Debit Card,success,2023-09-22
+T1440,U63,P10,18.0,Debit Card,success,2023-06-15
+T1441,U754,P4,60.0,Net Banking,success,2023-06-08
+T1442,U364,P9,0.0,,success,2023-06-28
+T1443,U742,P4,60.0,UPI,success,2023-04-26
+T1444,U240,P6,12.0,Debit Card,Success,2023-10-02
+T1445,U590,P7,20.0,,failed,2023-01-23
+T1446,U793,P10,18.0,Debit Card,success,2023-06-16
+T1447,U119,P10,18.0,Net Banking,success,2023-05-25
+T1448,U539,P5,15.0,,failed,2023-05-09
+T1449,U616,P2,10.0,Credit Card,success,2023-09-14
+T1450,U213,P2,10.0,Net Banking,success,2023-04-23
+T1451,U22,P9,0.0,UPI,success,2023-01-30
+T1452,U770,P3,25.0,,success,2023-12-21
+T1453,U716,P10,18.0,Debit Card,success,2023-11-30
+T1454,U379,P1,0.0,,failed,2023-07-31
+T1455,U258,P4,60.0,UPI,success,2023-11-30
+T1456,U367,P7,20.0,,success,2023-09-21
+T1457,U225,P7,20.0,Debit Card,success,2023-07-10
+T1458,U236,P3,25.0,Net Banking,success,2023-03-03
+T1459,U183,P5,15.0,Net Banking,success,2023-08-22
+T1460,U758,P3,25.0,Debit Card,failed,2023-06-25
+T1461,U235,P9,0.0,Credit Card,success,2023-04-15
+T1462,U500,P5,15.0,Credit Card,success,2023-10-14
+T1463,U437,P5,15.0,Net Banking,success,2023-01-19
+T1464,U281,P1,0.0,UPI,success,2023-08-26
+T1465,U302,P5,15.0,,success,2023-09-21
+T1466,U79,P4,60.0,Debit Card,success,2023-11-02
+T1467,U374,P7,20.0,UPI,success,2023-03-18
+T1468,U9,P4,60.0,,success,2023-02-16
+T1469,U187,P10,18.0,Net Banking,success,2023-02-21
+T1470,U205,P5,15.0,Debit Card,success,2023-03-07
+T1471,U778,P999,,UPI,success,2023-03-22
+T1472,U65,P3,25.0,,success,2023-05-16
+T1473,U195,P3,25.0,Net Banking,success,2023-02-24
+T1474,U630,P7,20.0,Net Banking,success,2023-07-13
+T1475,U798,P2,10.0,,success,2023-01-30
+T1476,U235,P8,30.0,Credit Card,success,2023-01-06
+T1477,U396,P6,12.0,Credit Card,success,2023-03-26
+T1478,U7,P1,0.0,,success,2023-08-31
+T1479,U233,P999,,,success,2023-06-01
+T1480,U284,P8,30.0,,success,2023-07-17
+T1481,U545,P8,30.0,Net Banking,success,2023-10-04
+T1482,U741,P9,0.0,Debit Card,success,2023-07-30
+T1483,U389,P7,20.0,Net Banking,success,2023-08-27
+T1484,U653,P9,0.0,Net Banking,failed,2023-03-17
+T1485,U371,P7,20.0,Credit Card,success,2023-05-16
+T1486,U62,P6,12.0,,pending,2023-08-24
+T1487,U119,P2,10.0,Net Banking,success,2023-02-11
+T1488,U635,P5,-100.0,Net Banking,failed,2023-09-08
+T1489,U477,P3,25.0,,success,2023-01-07
+T1490,U528,P2,10.0,Debit Card,success,2023-12-14
+T1491,U166,P9,0.0,Credit Card,success,2023-06-21
+T1492,U79,P5,15.0,UPI,success,2023-10-11
+T1493,U210,P7,20.0,Net Banking,success,2023-08-26
+T1494,U415,P6,12.0,Debit Card,success,2023-03-14
+T1495,U221,P9,0.0,UPI,success,2023-08-26
+T1496,U104,P6,12.0,,success,2023-02-06
+T1497,U799,P2,10.0,UPI,success,2023-06-27
+T1498,U113,P9,0.0,,success,2023-10-21
+T1499,U158,P4,60.0,Debit Card,success,2023-03-01
+T1500,U315,P5,15.0,UPI,success,2023-08-21
+T1501,U267,P9,0.0,Credit Card,success,2023-12-20
+T1502,U379,P1,0.0,Debit Card,success,2023-07-06
+T1503,U687,P4,60.0,UPI,success,2023-08-04
+T1504,U657,P7,20.0,Net Banking,success,2023-09-24
+T1505,U787,P10,18.0,UPI,success,2023-12-15
+T1506,U323,P9,0.0,UPI,success,2023-11-10
+T1507,U499,P1,0.0,Credit Card,success,2023-01-13
+T1508,U784,P10,-100.0,Debit Card,pending,2023-07-26
+T1509,U692,P8,30.0,Net Banking,failed,2023-11-23
+T1510,U512,P5,15.0,Debit Card,success,2023-02-28
+T1511,U138,P9,0.0,Debit Card,failed,2023-04-17
+T1512,U789,P2,10.0,Net Banking,success,2023-01-18
+T1513,U293,P4,60.0,Net Banking,success,2023-09-03
+T1514,U311,P10,18.0,Credit Card,success,2023-12-10
+T1515,U225,P3,25.0,,success,2023-01-30
+T1516,U11,P5,15.0,Credit Card,Success,2023-09-18
+T1517,U12,P999,,Net Banking,success,2023-12-01
+T1518,U353,P4,60.0,UPI,success,2023-04-16
+T1519,U396,P999,,UPI,success,2023-07-16
+T1520,U543,,,Debit Card,failed,2023-01-27
+T1521,U29,P3,25.0,Debit Card,success,2023-10-15
+T1522,U16,P4,60.0,,success,2023-05-20
+T1523,U615,P4,60.0,,success,2023-12-02
+T1524,U326,P4,60.0,,failed,2023-12-20
+T1525,U92,P8,30.0,,success,2023-12-07
+T1526,U139,P5,15.0,UPI,success,2023-02-21
+T1527,U333,P9,0.0,Net Banking,success,2023-05-25
+T1528,U799,P5,15.0,,success,2023-08-13
+T1529,U475,P9,0.0,Credit Card,success,2023-02-03
+T1530,U657,P8,30.0,,success,2023-09-07
+T1531,U509,P8,30.0,UPI,success,2023-05-29
+T1532,U514,P9,0.0,Debit Card,success,2023-10-03
+T1533,U661,P4,60.0,Credit Card,success,2023-03-18
+T1534,U666,P3,25.0,,success,2023-04-25
+T1535,U468,P1,-100.0,UPI,success,2023-04-30
+T1536,U149,P7,20.0,Debit Card,success,2023-03-09
+T1537,U144,P8,30.0,,failed,2023-09-04
+T1538,U784,P9,0.0,UPI,success,2023-04-10
+T1539,U473,P4,60.0,UPI,success,2023-06-07
+T1540,U353,P4,60.0,Net Banking,success,2023-05-05
+T1541,U202,P7,20.0,UPI,success,2023-03-28
+T1542,U289,P3,25.0,,success,2023-06-29
+T1543,U177,P8,30.0,UPI,success,2023-02-23
+T1544,U203,P4,60.0,Credit Card,failed,2023-08-27
+T1545,U697,P10,18.0,UPI,success,2023-03-04
+T1546,U633,P6,12.0,UPI,success,2023-10-06
+T1547,U330,P3,25.0,Credit Card,success,2023-01-22
+T1548,U23,P2,10.0,,pending,2023-04-06
+T1549,U134,P5,15.0,Debit Card,success,2023-02-01
+T1550,U390,P4,60.0,Net Banking,success,2023-03-24
+T1551,U434,P6,12.0,Debit Card,success,2023-05-21
+T1552,U22,P3,25.0,,success,2023-03-11
+T1553,U176,P4,60.0,,failed,2023-10-18
+T1554,U268,P4,60.0,Credit Card,success,2023-10-27
+T1555,U455,P2,10.0,Debit Card,success,2023-02-06
+T1556,U564,P5,15.0,UPI,failed,2023-07-14
+T1557,U314,P1,0.0,Credit Card,success,2023-12-20
+T1558,U184,P9,0.0,Credit Card,success,2023-08-03
+T1559,U771,P999,,Net Banking,success,2023-10-02
+T1560,U43,P6,12.0,Credit Card,success,2023-07-21
+T1561,U65,P3,25.0,Debit Card,success,2023-12-08
+T1562,U376,P4,60.0,,success,2023-11-25
+T1563,U769,P4,-100.0,Net Banking,success,2023-03-30
+T1564,U471,P6,12.0,UPI,success,2023-07-20
+T1565,U396,P4,60.0,Debit Card,pending,2023-06-22
+T1566,U270,P8,30.0,UPI,success,2023-01-13
+T1567,U311,P2,10.0,Credit Card,success,2023-08-18
+T1568,U208,P999,,Debit Card,success,2023-04-15
+T1569,U438,P7,20.0,Net Banking,success,2023-09-29
+T1570,U706,P8,30.0,Net Banking,success,2023-06-06
+T1571,U750,P4,60.0,UPI,failed,2023-03-04
+T1572,U497,P1,0.0,,success,2023-09-07
+T1573,U295,P3,25.0,Net Banking,success,2023-08-22
+T1574,U42,P999,,UPI,pending,2023-04-23
+T1575,U416,P6,12.0,,success,2023-06-08
+T1576,U371,,,Debit Card,success,2023-09-23
+T1577,U91,P7,20.0,Net Banking,pending,2023-02-23
+T1578,U105,P7,20.0,Net Banking,success,2023-03-31
+T1579,U150,P10,18.0,UPI,pending,2023-07-12
+T1580,U146,P7,20.0,Net Banking,success,2023-07-10
+T1581,U713,P8,30.0,UPI,Success,2023-02-12
+T1582,U723,P2,10.0,Net Banking,success,2023-03-31
+T1583,U48,P9,0.0,UPI,success,2023-12-19
+T1584,U239,P4,60.0,Net Banking,success,2023-06-16
+T1585,U371,P5,15.0,Debit Card,pending,2023-05-14
+T1586,U192,P2,10.0,Debit Card,success,2023-06-21
+T1587,U730,P1,0.0,UPI,success,2023-02-27
+T1588,U574,P4,60.0,Debit Card,success,2023-11-19
+T1589,U601,P999,,UPI,success,2023-02-23
+T1590,U402,,,UPI,success,2023-03-24
+T1591,U176,P3,25.0,Credit Card,success,2023-02-16
+T1592,U467,P6,12.0,Debit Card,pending,2023-09-28
+T1593,U623,P8,30.0,Credit Card,failed,2023-03-05
+T1594,U506,P3,25.0,Credit Card,Success,2023-06-23
+T1595,U9,P5,15.0,Net Banking,Success,2023-04-08
+T1596,U57,P10,18.0,UPI,success,2023-06-16
+T1597,U582,P7,20.0,,success,2023-03-07
+T1598,U708,P10,18.0,Credit Card,failed,2023-01-16
+T1599,U446,P3,25.0,Net Banking,success,2023-05-22
+T1600,U101,P3,25.0,Debit Card,failed,2023-08-16
+T1601,U679,P999,,,success,2023-09-21
+T1602,U546,P7,20.0,UPI,success,2023-10-16
+T1603,U333,P10,18.0,Net Banking,success,2023-05-06
+T1604,U112,P9,0.0,,success,2023-01-08
+T1605,U317,P5,15.0,UPI,failed,2023-03-31
+T1606,U320,P9,0.0,UPI,success,2023-07-07
+T1607,U522,P1,0.0,,pending,2023-05-02
+T1608,U315,P1,0.0,Net Banking,success,2023-11-06
+T1609,U710,P9,0.0,,success,2023-01-01
+T1610,U560,P6,12.0,Credit Card,success,2023-08-25
+T1611,U356,P3,25.0,,success,2023-03-17
+T1612,U265,P1,0.0,Debit Card,success,2023-02-02
+T1613,U584,P10,18.0,,success,2023-08-19
+T1614,U527,P999,,,success,2023-05-23
+T1615,U325,P4,60.0,UPI,failed,2023-05-29
+T1616,U379,P7,20.0,UPI,success,2023-12-31
+T1617,U154,P6,12.0,,success,2023-07-31
+T1618,U759,P5,15.0,Debit Card,success,2023-02-13
+T1619,U68,P2,10.0,UPI,success,2023-12-22
+T1620,U445,P999,,UPI,success,2023-06-24
+T1621,U753,P1,0.0,Credit Card,success,2023-12-28
+T1622,U666,P10,18.0,Net Banking,success,2023-04-14
+T1623,U531,P3,25.0,Credit Card,success,2023-05-11
+T1624,U426,P9,0.0,Debit Card,success,2023-01-27
+T1625,U585,P7,20.0,Net Banking,success,2023-01-10
+T1626,U694,P9,0.0,,success,2023-01-22
+T1627,U482,P3,25.0,Debit Card,success,2023-09-27
+T1628,U456,P10,18.0,Debit Card,success,2023-06-16
+T1629,U297,P4,60.0,Credit Card,success,2023-01-28
+T1630,U112,P4,60.0,Net Banking,success,2023-02-26
+T1631,U378,P999,,Debit Card,failed,2023-02-21
+T1632,U330,P8,30.0,Net Banking,success,2023-03-18
+T1633,U382,P5,15.0,,success,2023-09-18
+T1634,U681,P6,12.0,Net Banking,pending,2023-07-27
+T1635,U20,P1,0.0,Credit Card,success,2023-04-14
+T1636,U310,P9,0.0,Credit Card,success,2023-12-21
+T1637,U136,P7,20.0,Debit Card,success,2023-03-14
+T1638,U465,P3,25.0,Net Banking,failed,2023-11-06
+T1639,U228,P6,12.0,Credit Card,success,2023-08-24
+T1640,U654,P3,-100.0,UPI,pending,2023-10-12
+T1641,U139,P10,18.0,Credit Card,success,2023-09-08
+T1642,U276,P999,,,success,2023-01-16
+T1643,U648,P999,,UPI,success,2023-01-25
+T1644,U94,P7,20.0,Net Banking,success,2023-05-05
+T1645,U560,P9,0.0,Debit Card,failed,2023-07-13
+T1646,U752,P2,10.0,UPI,success,2023-04-22
+T1647,U516,P5,15.0,Credit Card,success,2023-05-16
+T1648,U76,P9,0.0,Debit Card,success,2023-04-10
+T1649,U88,P3,25.0,Debit Card,success,2023-04-15
+T1650,U723,P7,20.0,Debit Card,success,2023-10-24
+T1651,U245,P6,12.0,Debit Card,success,2023-05-12
+T1652,U717,P10,18.0,Net Banking,success,2023-11-16
+T1653,U737,P3,25.0,Net Banking,success,2023-10-06
+T1654,U152,P999,,Net Banking,failed,2023-02-18
+T1655,U763,P5,15.0,Credit Card,success,2023-03-15
+T1656,U561,P10,18.0,Net Banking,success,2023-01-02
+T1657,U249,P5,15.0,Debit Card,success,2023-08-30
+T1658,U246,P4,60.0,UPI,pending,2023-01-26
+T1659,U313,P1,0.0,UPI,success,2023-03-24
+T1660,U662,P7,20.0,UPI,success,2023-02-09
+T1661,U61,P999,,UPI,success,2023-12-05
+T1662,U783,P7,20.0,UPI,success,2023-08-07
+T1663,U102,P8,30.0,,success,2023-05-01
+T1664,U292,P1,0.0,UPI,success,2023-06-24
+T1665,U338,P2,10.0,UPI,success,2023-04-14
+T1666,U579,P10,18.0,UPI,success,2023-07-28
+T1667,U583,P3,25.0,Credit Card,success,2023-12-17
+T1668,U532,P7,20.0,,success,2023-06-07
+T1669,U643,P1,0.0,UPI,success,2023-02-12
+T1670,U122,P6,12.0,Net Banking,success,2023-11-26
+T1671,U13,P999,,Credit Card,pending,2023-05-31
+T1672,U402,P4,60.0,,success,2023-11-07
+T1673,U653,P6,12.0,Net Banking,success,2023-02-05
+T1674,U621,P1,0.0,Net Banking,success,2023-07-18
+T1675,U719,P10,18.0,Credit Card,success,2023-03-11
+T1676,U196,P3,25.0,Net Banking,success,2023-03-02
+T1677,U417,P4,60.0,Debit Card,success,2023-01-17
+T1678,U664,P2,10.0,Credit Card,success,2023-07-06
+T1679,U755,P10,18.0,Credit Card,success,2023-06-04
+T1680,U640,P4,60.0,Debit Card,success,2023-02-15
+T1681,U356,P6,12.0,Credit Card,success,2023-02-16
+T1682,U148,P1,0.0,,success,2023-07-08
+T1683,U537,P1,0.0,Net Banking,success,2023-07-08
+T1684,U405,P8,30.0,Net Banking,success,2023-12-23
+T1685,U511,P999,,Debit Card,success,2023-09-19
+T1686,U289,P3,25.0,Net Banking,success,2023-08-18
+T1687,U172,P999,,Debit Card,success,2023-08-10
+T1688,U152,P9,0.0,Debit Card,success,2023-08-01
+T1689,U418,P5,15.0,Debit Card,success,2023-03-21
+T1690,U497,P999,,Credit Card,success,2023-09-13
+T1691,U328,P2,10.0,,success,2023-05-03
+T1692,U580,P10,18.0,Debit Card,success,2023-05-16
+T1693,U321,P999,,Net Banking,success,2023-06-25
+T1694,U324,P9,0.0,Debit Card,success,2023-06-22
+T1695,U737,P10,18.0,UPI,success,2023-01-30
+T1696,U346,P3,25.0,Credit Card,success,2023-12-14
+T1697,U215,P10,18.0,Net Banking,failed,2023-08-04
+T1698,U719,P10,18.0,Credit Card,success,2023-08-17
+T1699,U781,P1,0.0,Credit Card,pending,2023-08-02
+T1700,U403,P1,0.0,UPI,success,2023-06-12
+T1701,U726,P5,15.0,Debit Card,failed,2023-04-19
+T1702,U15,P3,25.0,Net Banking,failed,2023-11-15
+T1703,U778,P2,10.0,,success,2023-02-25
+T1704,U411,P1,0.0,Credit Card,success,2023-06-17
+T1705,U17,P9,0.0,,success,2023-09-12
+T1706,U428,P8,30.0,,success,2023-06-18
+T1707,U650,P999,,Debit Card,success,2023-11-23
+T1708,U294,P1,0.0,,success,2023-06-21
+T1709,U104,P2,10.0,Net Banking,success,2023-12-25
+T1710,U54,P3,25.0,Debit Card,success,2023-07-28
+T1711,U335,P5,15.0,,success,2023-08-01
+T1712,U105,P999,,Debit Card,success,2023-09-27
+T1713,U631,P1,0.0,Net Banking,success,2023-08-15
+T1714,U463,P5,15.0,Credit Card,success,2023-01-29
+T1715,U725,P6,12.0,UPI,failed,2023-05-31
+T1716,U56,P3,25.0,Debit Card,success,2023-03-03
+T1717,U791,P6,12.0,UPI,success,2023-04-22
+T1718,U447,P999,-100.0,Credit Card,success,2023-05-20
+T1719,U317,P3,25.0,Net Banking,success,2023-03-26
+T1720,U218,P5,15.0,Credit Card,success,2023-12-26
+T1721,U673,P5,15.0,UPI,success,2023-02-18
+T1722,U528,P3,25.0,Net Banking,success,2023-03-13
+T1723,U569,P5,15.0,,success,2023-12-22
+T1724,U234,P6,12.0,,success,2023-11-11
+T1725,U799,P3,25.0,Debit Card,success,2023-03-19
+T1726,U583,P999,,,success,2023-03-06
+T1727,U163,P9,0.0,UPI,success,2023-05-23
+T1728,U96,P6,12.0,,failed,2023-06-14
+T1729,U225,P8,30.0,Debit Card,success,2023-07-18
+T1730,U659,P1,0.0,Net Banking,success,2023-06-11
+T1731,U783,P1,0.0,,failed,2023-06-30
+T1732,U585,P1,0.0,Debit Card,failed,2023-02-03
+T1733,U468,P9,0.0,,success,2023-06-01
+T1734,U186,P10,18.0,,failed,2023-03-21
+T1735,U13,P10,18.0,UPI,pending,2023-05-29
+T1736,U299,P6,12.0,Debit Card,success,2023-10-20
+T1737,U376,P7,20.0,Debit Card,success,2023-04-02
+T1738,U356,P6,12.0,Credit Card,success,2023-01-13
+T1739,U323,P999,,Credit Card,pending,2023-10-27
+T1740,U271,P2,10.0,,success,2023-05-25
+T1741,U550,P9,0.0,UPI,success,2023-01-04
+T1742,U339,P6,12.0,,failed,2023-10-05
+T1743,U614,P6,12.0,Net Banking,pending,2023-07-28
+T1744,U689,P6,12.0,,success,2023-02-15
+T1745,U762,P7,20.0,Net Banking,success,2023-06-23
+T1746,U681,P2,10.0,UPI,success,2023-10-02
+T1747,U795,P999,,Credit Card,pending,2023-02-23
+T1748,U325,P8,30.0,Debit Card,failed,2023-03-03
+T1749,U244,P10,18.0,UPI,success,2023-01-26
+T1750,U380,P10,18.0,Net Banking,failed,2023-05-13
+T1751,U365,P8,30.0,Debit Card,success,2023-11-17
+T1752,U342,P999,,Net Banking,success,2023-12-15
+T1753,U792,P7,20.0,,success,2023-11-08
+T1754,U555,P6,12.0,,success,2023-07-17
+T1755,U442,P4,60.0,,success,2023-05-16
+T1756,U217,P9,0.0,Debit Card,success,2023-01-18
+T1757,U626,P6,12.0,Credit Card,failed,2023-08-11
+T1758,U165,P9,0.0,Credit Card,success,2023-05-14
+T1759,U747,P6,12.0,Net Banking,pending,2023-05-01
+T1760,U74,P3,25.0,,success,2023-11-08
+T1761,U198,P999,,Credit Card,success,2023-11-28
+T1762,U687,P5,15.0,Net Banking,success,2023-02-03
+T1763,U714,P5,15.0,Net Banking,failed,2023-07-16
+T1764,U158,P10,18.0,Net Banking,success,2023-09-12
+T1765,U431,P8,30.0,Debit Card,failed,2023-12-31
+T1766,U56,P10,18.0,Net Banking,success,2023-04-12
+T1767,U601,P1,0.0,Debit Card,success,2023-04-15
+T1768,U257,P9,0.0,Debit Card,failed,2023-01-31
+T1769,U490,P2,10.0,Debit Card,success,2023-11-05
+T1770,U366,P1,0.0,Net Banking,success,2023-01-11
+T1771,U643,P8,30.0,Credit Card,success,2023-04-01
+T1772,U555,P9,0.0,Credit Card,success,2023-07-16
+T1773,U46,P5,-100.0,Net Banking,success,2023-12-09
+T1774,U637,P8,30.0,Credit Card,success,2023-07-22
+T1775,U80,P7,20.0,Net Banking,pending,2023-08-16
+T1776,U726,P10,18.0,Debit Card,success,2023-01-28
+T1777,U601,P7,20.0,,success,2023-12-28
+T1778,U573,P5,15.0,UPI,success,2023-06-30
+T1779,U539,P1,0.0,Net Banking,success,2023-02-25
+T1780,U214,P5,15.0,Debit Card,success,2023-09-17
+T1781,U74,P10,18.0,,success,2023-01-04
+T1782,U96,P999,,Debit Card,success,2023-12-15
+T1783,U32,P8,30.0,UPI,success,2023-03-04
+T1784,U671,P2,10.0,Credit Card,success,2023-08-21
+T1785,U383,P2,10.0,Credit Card,failed,2023-03-27
+T1786,U644,P3,25.0,Debit Card,success,2023-11-30
+T1787,U336,P5,15.0,UPI,success,2023-06-03
+T1788,U740,P5,15.0,Debit Card,success,2023-02-08
+T1789,U685,P9,0.0,Credit Card,success,2023-04-30
+T1790,U375,P5,15.0,Debit Card,success,2023-11-28
+T1791,U504,P8,30.0,,success,2023-06-20
+T1792,U322,P999,,UPI,success,2023-06-07
+T1793,U166,P6,12.0,Credit Card,success,2023-11-29
+T1794,U670,P2,10.0,Debit Card,failed,2023-12-06
+T1795,U566,P6,12.0,UPI,success,2023-03-27
+T1796,U616,P7,20.0,Debit Card,success,2023-03-17
+T1797,U599,P6,12.0,Credit Card,success,2023-01-10
+T1798,U543,P8,30.0,UPI,success,2023-12-08
+T1799,U766,P4,60.0,Credit Card,success,2023-07-24
+T1800,U391,P7,20.0,,success,2023-06-22
+T1801,U474,P3,25.0,,success,2023-08-03
+T1802,U619,P999,,Net Banking,success,2023-09-20
+T1803,U566,P8,30.0,UPI,success,2023-11-25
+T1804,U235,P7,20.0,,failed,2023-10-08
+T1805,U771,P8,30.0,Net Banking,pending,2023-03-13
+T1806,U657,P1,-100.0,UPI,success,2023-06-07
+T1807,U311,P7,20.0,Credit Card,success,2023-11-11
+T1808,U68,P8,30.0,Debit Card,success,2023-10-06
+T1809,U628,P9,0.0,Debit Card,failed,2023-07-02
+T1810,U129,P999,,Credit Card,failed,2023-12-12
+T1811,U501,P4,60.0,,success,2023-06-01
+T1812,U571,P5,15.0,Debit Card,success,2023-11-11
+T1813,U492,P999,,Credit Card,failed,2023-06-18
+T1814,U663,P6,12.0,Net Banking,success,2023-06-06
+T1815,U452,P1,0.0,Net Banking,success,2023-03-18
+T1816,U735,P1,-100.0,Credit Card,success,2023-11-16
+T1817,U267,P8,30.0,UPI,failed,2023-03-23
+T1818,U686,P1,0.0,,success,2023-06-10
+T1819,U673,P5,15.0,,failed,2023-06-08
+T1820,U650,P9,0.0,Credit Card,success,2023-10-18
+T1821,U433,P9,0.0,Debit Card,success,2023-04-08
+T1822,U412,P999,,,success,2023-07-18
+T1823,U621,,,,success,2023-12-28
+T1824,U737,P6,12.0,Net Banking,success,2023-01-15
+T1825,U248,P5,15.0,Net Banking,success,2023-07-12
+T1826,U581,P9,0.0,Net Banking,pending,2023-07-19
+T1827,U608,P2,10.0,,failed,2023-08-21
+T1828,U775,P3,25.0,,success,2023-07-20
+T1829,U97,P6,12.0,,success,2023-10-02
+T1830,U113,P999,,Debit Card,pending,2023-03-25
+T1831,U482,P2,10.0,Debit Card,failed,2023-08-29
+T1832,U528,P999,-100.0,Debit Card,pending,2023-07-12
+T1833,U685,P2,10.0,UPI,success,2023-12-25
+T1834,U503,P6,12.0,,success,2023-11-20
+T1835,U383,P999,,,failed,2023-05-12
+T1836,U12,P6,12.0,Credit Card,success,2023-12-31
+T1837,U218,P1,0.0,Credit Card,success,2023-04-08
+T1838,U472,P7,20.0,UPI,failed,2023-09-06
+T1839,U754,P9,0.0,Credit Card,success,2023-07-14
+T1840,U387,P1,0.0,Debit Card,success,2023-12-16
+T1841,U408,P2,10.0,UPI,success,2023-12-18
+T1842,U240,P999,,UPI,success,2023-08-25
+T1843,U384,P8,30.0,UPI,success,2023-10-29
+T1844,U468,P7,20.0,Net Banking,success,2023-10-16
+T1845,U326,P1,0.0,Credit Card,success,2023-11-29
+T1846,U387,P4,60.0,,failed,2023-11-11
+T1847,U154,P5,15.0,Net Banking,success,2023-02-07
+T1848,U264,P10,18.0,Debit Card,success,2023-10-19
+T1849,U173,P4,60.0,Net Banking,success,2023-04-25
+T1850,U583,P7,20.0,Debit Card,success,2023-04-06
+T1851,U31,P10,18.0,,success,2023-01-13
+T1852,U11,P5,15.0,,success,2023-12-22
+T1853,U344,P9,0.0,Credit Card,success,2023-05-09
+T1854,U569,P10,18.0,Net Banking,failed,2023-01-23
+T1855,U482,P8,30.0,,success,2023-06-28
+T1856,U782,P7,20.0,Debit Card,success,2023-02-21
+T1857,U545,P2,10.0,,failed,2023-05-02
+T1858,U787,P9,0.0,Credit Card,success,2023-02-11
+T1859,U661,P8,30.0,Debit Card,success,2023-12-19
+T1860,U457,P5,15.0,UPI,success,2023-09-29
+T1861,U273,P2,10.0,Credit Card,success,2023-07-30
+T1862,U208,P8,30.0,Credit Card,success,2023-03-06
+T1863,U513,P7,20.0,UPI,success,2023-04-22
+T1864,U518,P8,30.0,,success,2023-07-04
+T1865,U387,P8,30.0,Credit Card,success,2023-10-20
+T1866,U325,P6,12.0,UPI,success,2023-08-22
+T1867,U695,P5,15.0,,success,2023-12-07
+T1868,U495,P4,60.0,Credit Card,failed,2023-05-22
+T1869,U747,P10,18.0,Net Banking,success,2023-01-23
+T1870,U345,P4,60.0,Credit Card,success,2023-02-09
+T1871,U576,P999,,Net Banking,success,2023-05-29
+T1872,U722,P2,10.0,,success,2023-02-25
+T1873,U558,P9,0.0,UPI,success,2023-08-20
+T1874,U138,P9,0.0,Debit Card,success,2023-05-17
+T1875,U473,P9,0.0,Credit Card,success,2023-10-02
+T1876,U317,P999,,Debit Card,success,2023-10-02
+T1877,U561,P1,0.0,,success,2023-12-02
+T1878,U258,P9,0.0,Credit Card,success,2023-07-05
+T1879,U480,P5,15.0,Debit Card,success,2023-11-13
+T1880,U648,P5,15.0,,success,2023-10-23
+T1881,U59,P999,,Net Banking,success,2023-09-15
+T1882,U705,P3,25.0,,success,2023-11-12
+T1883,U465,P6,12.0,,success,2023-02-07
+T1884,U95,P8,30.0,Credit Card,success,2023-07-15
+T1885,U125,P4,60.0,Credit Card,success,2023-05-05
+T1886,U254,P7,20.0,,success,2023-06-01
+T1887,U585,P9,0.0,Credit Card,success,2023-03-20
+T1888,U47,P8,30.0,,success,2023-03-30
+T1889,U622,P8,30.0,UPI,success,2023-01-18
+T1890,U353,P4,60.0,UPI,success,2023-12-11
+T1891,U157,P3,25.0,UPI,success,2023-02-05
+T1892,U455,P999,-100.0,Debit Card,success,2023-07-21
+T1893,U365,P6,12.0,UPI,success,2023-03-03
+T1894,U723,P8,30.0,UPI,pending,2023-12-21
+T1895,U9,P3,25.0,,success,2023-01-26
+T1896,U53,P4,60.0,,success,2023-12-22
+T1897,U77,P8,30.0,Credit Card,success,2023-06-07
+T1898,U96,P9,0.0,Credit Card,success,2023-09-10
+T1899,U124,P2,10.0,Credit Card,success,2023-03-25
+T1900,U296,P8,30.0,,success,2023-08-09
+T1901,U86,P7,20.0,,success,2023-01-08
+T1902,U757,P2,10.0,UPI,success,2023-07-20
+T1903,U540,P999,,Net Banking,success,2023-08-07
+T1904,U56,P4,60.0,,failed,2023-10-22
+T1905,U632,P999,,Net Banking,success,2023-10-15
+T1906,U179,P2,10.0,,pending,2023-10-03
+T1907,U189,P7,20.0,,failed,2023-07-16
+T1908,U112,P6,12.0,Debit Card,success,2023-05-09
+T1909,U588,P10,18.0,Net Banking,failed,2023-09-18
+T1910,U170,P5,15.0,Debit Card,success,2023-03-16
+T1911,U70,P4,60.0,UPI,failed,2023-05-10
+T1912,U631,P8,30.0,Debit Card,failed,2023-01-05
+T1913,U781,P5,15.0,Debit Card,failed,2023-04-09
+T1914,U560,P3,25.0,UPI,success,2023-02-12
+T1915,U517,,,Net Banking,success,2023-02-07
+T1916,U503,P10,18.0,Credit Card,success,2023-07-04
+T1917,U583,P999,,,success,2023-07-18
+T1918,U675,P8,30.0,Net Banking,success,2023-11-24
+T1919,U40,P10,18.0,UPI,success,2023-07-21
+T1920,U686,P4,60.0,Debit Card,success,2023-03-05
+T1921,U211,P3,25.0,Credit Card,success,2023-01-31
+T1922,U302,,,Debit Card,pending,2023-10-28
+T1923,U253,P5,15.0,,success,2023-04-13
+T1924,U769,P3,25.0,UPI,success,2023-07-23
+T1925,U444,P6,12.0,Credit Card,success,2023-09-06
+T1926,U364,P999,,Net Banking,success,2023-11-01
+T1927,U144,P9,0.0,Net Banking,success,2023-02-12
+T1928,U18,P4,60.0,UPI,success,2023-01-11
+T1929,U217,P2,10.0,UPI,pending,2023-06-04
+T1930,U107,P8,30.0,Debit Card,pending,2023-05-24
+T1931,U566,P6,12.0,Credit Card,success,2023-01-23
+T1932,U76,P999,,,success,2023-08-11
+T1933,U547,P1,-100.0,UPI,success,2023-03-16
+T1934,U267,P2,-100.0,Credit Card,failed,2023-06-03
+T1935,U317,P4,60.0,UPI,success,2023-03-06
+T1936,U160,P9,0.0,UPI,success,2023-11-19
+T1937,U735,P9,0.0,Net Banking,success,2023-04-01
+T1938,U166,P5,15.0,Credit Card,pending,2023-05-27
+T1939,U86,P5,15.0,Net Banking,success,2023-04-10
+T1940,U382,P9,0.0,Net Banking,success,2023-03-18
+T1941,U318,P5,15.0,Credit Card,success,2023-07-06
+T1942,U233,P10,18.0,Net Banking,success,2023-01-02
+T1943,U296,P999,,Debit Card,pending,2023-08-23
+T1944,U706,P6,12.0,,success,2023-08-20
+T1945,U368,P3,25.0,,failed,2023-11-01
+T1946,U592,P8,30.0,Debit Card,success,2023-08-30
+T1947,U696,P7,20.0,UPI,success,2023-02-07
+T1948,U428,P9,0.0,Net Banking,failed,2023-07-30
+T1949,U646,P7,20.0,,success,2023-04-29
+T1950,U732,P1,0.0,Credit Card,success,2023-02-13
+T1951,U364,P1,0.0,UPI,success,2023-03-19
+T1952,U457,P3,25.0,,success,2023-02-13
+T1953,U491,P9,0.0,Net Banking,success,2023-01-24
+T1954,U244,P10,18.0,,success,2023-12-24
+T1955,U166,P8,30.0,Net Banking,success,2023-03-01
+T1956,U400,P2,10.0,UPI,success,2023-02-16
+T1957,U241,P3,25.0,Debit Card,success,2023-11-28
+T1958,U381,P7,20.0,Net Banking,success,2023-07-13
+T1959,U609,P6,12.0,Net Banking,success,2023-07-01
+T1960,U333,P6,12.0,UPI,success,2023-11-19
+T1961,U503,P1,0.0,UPI,success,2023-05-24
+T1962,U604,P10,18.0,Credit Card,success,2023-11-05
+T1963,U303,P5,15.0,UPI,success,2023-11-03
+T1964,U647,P7,20.0,,success,2023-08-03
+T1965,U561,P8,30.0,Net Banking,Success,2023-04-11
+T1966,U713,P1,0.0,Debit Card,failed,2023-04-28
+T1967,U349,P5,15.0,UPI,success,2023-03-11
+T1968,U396,P9,-100.0,Net Banking,success,2023-06-24
+T1969,U81,P10,18.0,Debit Card,failed,2023-10-18
+T1970,U591,P6,12.0,Credit Card,success,2023-11-01
+T1971,U464,P4,60.0,,success,2023-04-21
+T1972,U240,P9,0.0,Credit Card,failed,2023-09-07
+T1973,U748,P4,60.0,UPI,failed,2023-12-24
+T1974,U190,P10,18.0,,success,2023-06-15
+T1975,U711,P999,,Credit Card,success,2023-03-31
+T1976,U536,P3,25.0,Net Banking,success,2023-10-12
+T1977,U640,P8,30.0,UPI,failed,2023-01-25
+T1978,U510,P6,12.0,Credit Card,success,2023-06-01
+T1979,U734,P3,25.0,,success,2023-02-09
+T1980,U115,P8,30.0,,success,2023-03-26
+T1981,U362,P3,25.0,Debit Card,success,2023-05-14
+T1982,U197,P2,10.0,,success,2023-01-06
+T1983,U221,P8,30.0,,success,2023-05-10
+T1984,U264,P5,15.0,UPI,success,2023-12-13
+T1985,U95,P8,-100.0,,success,2023-03-10
+T1986,U470,P2,10.0,Debit Card,success,2023-03-30
+T1987,U514,P4,60.0,,failed,2023-10-03
+T1988,U498,P999,,Debit Card,success,2023-12-12
+T1989,U665,,,Net Banking,success,2023-01-25
+T1990,U88,P7,20.0,Debit Card,success,2023-10-16
+T1991,U590,P7,20.0,UPI,success,2023-03-12
+T1992,U128,P9,0.0,Credit Card,success,2023-01-24
+T1993,U200,P10,18.0,,success,2023-11-05
+T1994,U416,P9,0.0,Net Banking,success,2023-11-09
+T1995,U361,P5,15.0,UPI,success,2023-04-08
+T1996,U308,P10,18.0,Net Banking,success,2023-07-28
+T1997,U61,P8,30.0,Net Banking,failed,2023-02-22
+T1998,U456,P3,25.0,,success,2023-10-02
+T1999,U761,P2,10.0,,success,2023-03-21
+T2000,U494,P8,30.0,UPI,success,2023-11-08
+T2001,U82,P5,15.0,Credit Card,success,2023-10-29
+T2002,U522,P6,12.0,Debit Card,success,2023-02-28
+T2003,U424,P8,30.0,,success,2023-12-29
+T2004,U154,P6,12.0,UPI,success,2023-07-31
+T2005,U678,P4,60.0,UPI,success,2023-10-22
+T2006,U240,,,Credit Card,success,2023-01-05
+T2007,U47,P8,30.0,UPI,success,2023-03-30
+T2008,U689,P5,15.0,UPI,success,2023-02-10
+T2009,U260,P6,12.0,Credit Card,success,2023-08-16
+T2010,U166,P5,15.0,,success,2023-05-27
+T2011,U789,P2,10.0,Credit Card,success,2023-08-28
+T2012,U281,P5,15.0,Net Banking,success,2023-12-25
+T2013,U31,P10,18.0,,success,2023-01-13
+T2014,U149,P10,18.0,Net Banking,success,2023-08-30
+T2015,U336,P2,10.0,UPI,success,2023-08-15
+T2016,U139,P10,18.0,Net Banking,failed,2023-10-06
+T2017,U420,P3,25.0,Credit Card,success,2023-08-02
+T2018,U116,P6,-100.0,Credit Card,pending,2023-06-21
+T2019,U402,P3,25.0,Debit Card,success,2023-04-15
+T2020,U747,P10,18.0,UPI,success,2023-01-23
+T2021,U753,P1,0.0,Credit Card,success,2023-12-28

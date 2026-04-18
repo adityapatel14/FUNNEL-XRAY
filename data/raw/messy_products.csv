@@ -1,0 +1,11 @@
+product_id,product_name,category,price
+P1,Free Plan,Subscription,0
+P2,Basic Plan,subscription,10
+P3,Pro Plan,Subscription,25
+P4,Enterprise Plan,Subscription,60
+P5,Analytics Dashboard,Feature,15
+P6,Email Automation,Feature,12
+P7,CRM Tool,feature,20
+P8,AI Insights,Feature,30
+P9,Mobile App,Platform,0
+P10,API Access,Platform,18
