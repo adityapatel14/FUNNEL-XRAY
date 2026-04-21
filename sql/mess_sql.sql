@@ -147,4 +147,7 @@ CREATE TABLE cleaned_products as
 SELECT product_id,product_name,lower(trim(category)) as category,price
 from messy_products;
 
+select * from cleaned_events;
 select * from cleaned_users;
+select * from cleaned_products;
+select * from cleaned_transactions;
