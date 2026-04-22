@@ -16,7 +16,7 @@ SELECT *
 FROM cleaned_users;
 
 SELECT *
-FROM cleaned_users;
+FROM cleaned_transactions;
 
 SELECT count(distinct ct.user_id) as transaction_users,count(distinct cu.user_id) as user_users
 FROM cleaned_transactions ct
@@ -81,3 +81,92 @@ SELECT event_type, count(distinct user_id) as unique_user_event_stage
 from cleaned_events
 GROUP BY event_type
 ORDER BY unique_user_event_stage DESC;
+
+SELECT
+payment_method,
+SUM(CASE WHEN status = 'success' THEN 1 else 0 end) as success,
+SUM(CASE WHEN status = 'pending' THEN 1 else 0 end) as pending,
+SUM(CASE WHEN status = 'failed' THEN 1 else 0 end) as failed
+FROM cleaned_transactions
+WHERE amount <> 0
+group by payment_method
+order by failed desc;
+
+select *
+from cleaned_transactions
+where payment_method = 'no payment' and status = 'failed';
+
+SELECT
+user_id_num,
+count(*) as count
+from cleaned_transactions
+where status = 'failed' or status = 'pending'
+group by user_id_num
+order by count desc;
+
+SELECT payment_method, sum(amount) as revenue
+from cleaned_transactions
+where payment_method <> 'no payment' or status = 'success'
+group by payment_method
+order by revenue desc;
+
+SELECT 
+payment_method,
+SUM(CASE WHEN status = 'failed' then 1 else 0 end)*100.0/count(*) as failure_rate
+from cleaned_transactions
+group by payment_method
+order by failure_rate desc;
+
+SELECT payment_method, sum(amount) as revenue
+from cleaned_transactions
+WHERE payment_method != 'unknown' AND status = 'success'
+group by payment_method
+order by revenue desc;
+
+SELECT cp.product_name,count(*) as failed_transactions
+from cleaned_transactions ct
+join cleaned_products cp
+on ct.product_id = cp.product_id
+where ct.status = 'failed' and ct.amount <> '0'
+group by cp.product_name;
+
+select cp.category,sum(amount) as revenue
+from cleaned_transactions ct
+join cleaned_products cp
+on ct.product_id = cp.product_id
+where cp.category <> 'unknown'
+group by cp.category
+order by revenue desc;
+
+select
+cp.product_name,
+sum(CASE WHEN ct.status = 'pending' then 1 else 0 end)*100.0/count(*) as pending_rate
+from cleaned_transactions ct
+join cleaned_products cp
+on ct.product_id = cp.product_id
+WHERE ct.amount <> '0'
+GROUP BY cp.product_name
+ORDER BY pending_rate desc;
+
+SELECT user_id,count(*) as failed_transactions_only
+FROM cleaned_transactions
+WHERE user_id NOT IN (SELECT user_id from cleaned_transactions where status = 'success')
+group by user_id
+ORDER BY failed_transactions_only desc;
+
+SELECT cu.country,avg(ct.amount) as avg_revenue
+FROM cleaned_transactions ct
+join cleaned_users cu
+on ct.user_id = cu.user_id
+WHERE amount <> 0 and status = 'success' and country != 'unknown'
+group by cu.country
+order by avg_revenue desc;
+
+SELECT cu.device,SUM(CASE WHEN status = 'success' then 1 else 0 end) as devices
+FROM cleaned_transactions ct
+join cleaned_users cu
+on ct.user_id = cu.user_id
+WHERE device <> 'unknown'
+group by cu.device
+order by devices desc
+limit 1;
