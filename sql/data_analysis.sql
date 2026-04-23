@@ -170,3 +170,8 @@ WHERE device <> 'unknown'
 group by cu.device
 order by devices desc
 limit 1;
+
+SELECT 
+SUM(CASE WHEN status = 'Success' then 1 else 0 end) as succ_rate_count,
+SUM(CASE WHEN status = 'Success' then 1 else 0 end)*100.0/count(*) as succ_rate
+from cleaned_transactions
