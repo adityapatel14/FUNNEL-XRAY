@@ -30,7 +30,7 @@ funnel-drop-off-analysis/
 
 ## 🗂️ Data Dictionary
 
-### `cleaned_events.csv` — 3,973 rows × 5 columns
+### `cleaned_events.csv` — 3,886 rows × 5 columns
 
 Tracks every user interaction with the platform throughout 2023.
 
@@ -46,11 +46,11 @@ Tracks every user interaction with the platform throughout 2023.
 
 | Event Type | Count | % of Total |
 |---|---|---|
-| login | 1,669 | 42.0% |
-| view | 1,248 | 31.4% |
-| click | 657 | 16.5% |
-| add_to_cart | 258 | 6.5% |
-| purchase | 141 | 3.5% |
+| login | 1,628 | 41.9% |
+| view | 1,223 | 31.5% |
+| click | 643 | 16.5% |
+| add_to_cart | 253 | 6.5% |
+| purchase | 139 | 3.6% |
 
 ---
 
@@ -129,13 +129,13 @@ Records of all payment transactions linked to user events.
 
 | Method | Count |
 |---|---|
-| No Payment (Free) | 430 |
+| Unknown Payment (Free) | 430 |
 | UPI | 413 |
 | Net Banking | 374 |
 | Debit Card | 359 |
 | Credit Card | 355 |
 
-**Transaction amount stats:** Mean: $17.90 | Median: $15.00 | Max: $60.00
+**Transaction amount stats:** Mean: $24.32 | Median: $20.00 | Max: $60.00 | Min: $10.00
 
 ---
 
@@ -186,14 +186,14 @@ jupyter notebook
 ```
 Funnel Stage    Users    Prev Stage   Drop-off    Drop-off %
 ─────────────────────────────────────────────────────────────
-🟦 Login          820         —           —            —
-🟦 View           615        820         205        ↓ 25.00%
-🟦 Click          430        615         185        ↓ 30.08%
-🟦 Add to Cart    258        430         172        ↓ 40.00%
-🟦 Purchase       141        258         117        ↓ 45.35%
+🟦 Login          800         —           —            —
+🟦 View           601        800         199        ↓ 24.88%
+🟦 Click          421        601         180        ↓ 29.95%
+🟦 Add to Cart    253        421         168        ↓ 39.90%
+🟦 Purchase       139        253         114        ↓ 45.06%
 ─────────────────────────────────────────────────────────────
-Overall conversion (Login → Purchase): 141 / 820 = 17.2%
-Largest single drop-off:  Add to Cart → Purchase  (-45.35%)
+Overall conversion (Login → Purchase): 139 / 800 = 17.38%
+Largest single drop-off:  Add to Cart → Purchase  (-45.06%)
 ```
 
 > The steepest drop occurs at the **final checkout step** (Add to Cart → Purchase), suggesting friction at payment or pricing — making it the highest-priority area for optimization.
@@ -206,7 +206,7 @@ Largest single drop-off:  Add to Cart → Purchase  (-45.35%)
 - The `P0` product (`Unknown`, price $0) is a placeholder for untracked or free interactions and should be filtered out in conversion analysis.
 - Users with `country = unknown` may be excluded from geographic segmentation depending on analysis scope.
 - `device = unknown` for most users suggests device tracking was not fully implemented at the time of data collection.
-- The `no payment` method corresponds to free-tier product access and should not be counted as a failed transaction.
+- The `unknown_payment` method corresponds to free-tier product access and should not be counted as a failed transaction.
 
 ---
 
