@@ -94,3 +94,6 @@ select
   ) as drop_off_rate
 
 from counts;
+
+select *
+from  viewer
