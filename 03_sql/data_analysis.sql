@@ -174,4 +174,7 @@ limit 1;
 SELECT 
 SUM(CASE WHEN status = 'Success' then 1 else 0 end) as succ_rate_count,
 SUM(CASE WHEN status = 'Success' then 1 else 0 end)*100.0/count(*) as succ_rate
-from cleaned_transactions
+from cleaned_transactions;
+
+select *
+from cleaned_events;
