@@ -178,10 +178,5 @@ from cleaned_transactions;
 
 select *
 from cleaned_events
-<<<<<<< HEAD
-where status = 'Success';
-=======
 where status = 'Success'
 ORDER BY transactions desc;
-
->>>>>>> 74b3235 (events sql)
